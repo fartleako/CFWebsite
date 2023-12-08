@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scenegraph on CrossForge</title>
-    <link>/graphics_lectures/moving_objects/scenegraph/</link>
+    <link>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/scenegraph/</link>
     <description>Recent content in Scenegraph on CrossForge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 12:00:39 +0100</lastBuildDate><atom:link href="/graphics_lectures/moving_objects/scenegraph/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 12:00:39 +0100</lastBuildDate><atom:link href="https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/scenegraph/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solarsystem 2</title>
-      <link>/graphics_lectures/moving_objects/scenegraph/example/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/scenegraph/example/</link>
       <pubDate>Sun, 20 Nov 2022 12:00:39 +0100</pubDate>
       
-      <guid>/graphics_lectures/moving_objects/scenegraph/example/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/scenegraph/example/</guid>
       <description>This time we will only use the scene graph to render our solarsystem and add some details: we add the moon and let it orbit around the earth and on top of orbiting we add rotation around their own axis to all the planets. Add the moon:
 T3DMesh&amp;lt;float&amp;gt; M; //StaticActor m_Moon SAssetIO::load(&amp;#34;Assets/ExampleScenes/Solar/moon/scene.gltf&amp;#34;, &amp;amp;M); setMeshShader(&amp;amp;M, 0.4f, 0.02f); M.computePerVertexNormals(); m_Moon.init(&amp;amp;M); M.clear(); Now to the changed scene graph: we will add Transformation Nodes for every planet.</description>
     </item>

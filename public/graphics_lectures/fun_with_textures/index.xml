@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fun with Textures on CrossForge</title>
-    <link>/graphics_lectures/fun_with_textures/</link>
+    <link>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/</link>
     <description>Recent content in Fun with Textures on CrossForge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Nov 2022 14:41:58 +0100</lastBuildDate><atom:link href="/graphics_lectures/fun_with_textures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 14:41:58 +0100</lastBuildDate><atom:link href="https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Skybox</title>
-      <link>/graphics_lectures/fun_with_textures/skybox/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/skybox/</link>
       <pubDate>Sun, 20 Nov 2022 12:00:55 +0100</pubDate>
       
-      <guid>/graphics_lectures/fun_with_textures/skybox/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/skybox/</guid>
       <description>When creating seemingly endless worlds, one way of achieving this feeling is by using a concept called Skybox. In short a Skybox is either a cube or a sphere, so called skydome, that surrounds the world. The sky and other unreachable objects are projected onto the inner faces.
 We use the SkyboxActor class when handling with skyboxes.
 SkyboxActor m_Skybox; First we need to load textures for the 6 faces of the Cube.</description>
@@ -20,10 +20,10 @@ SkyboxActor m_Skybox; First we need to load textures for the 6 faces of the Cube
     
     <item>
       <title>Normal and Displacement Mapping</title>
-      <link>/graphics_lectures/fun_with_textures/normal_displacement_mapping/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/normal_displacement_mapping/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>/graphics_lectures/fun_with_textures/normal_displacement_mapping/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/normal_displacement_mapping/</guid>
       <description>Normal and displacement mapping are techniques used in 3D computer graphics to add detail and realism to surfaces without actually increasing the number of polygons in the model. These techniques are widely used in video games and visual effects to create more realistic and detailed objects and environments. Normal Mapping Normal mapping is a technique used to simulate the appearance of bumps and crevices on the surface of a model without actually changing its shape.</description>
     </item>
     
