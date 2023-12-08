@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transformations on CrossForge</title>
-    <link>https://fartleako.github.io/graphics_lectures/moving_objects/transformation/</link>
+    <link>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/transformation/</link>
     <description>Recent content in Transformations on CrossForge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Oct 2022 18:53:54 +0200</lastBuildDate><atom:link href="https://fartleako.github.io/graphics_lectures/moving_objects/transformation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Oct 2022 18:53:54 +0200</lastBuildDate><atom:link href="https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/transformation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solarsystem 1</title>
-      <link>https://fartleako.github.io/graphics_lectures/moving_objects/transformation/example/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/transformation/example/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/moving_objects/transformation/example/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/transformation/example/</guid>
       <description>The task is to create a basic version of our solarsystem with simple transformations. In Crossforge we mainly use scene graphs to render a scene, therefore the application of affine transformations is also handled by that. In this example, we will not use transformation nodes to atleast show that it can be done alternatively with simple transformation, by multiplicating a transformation matrix with the position vector of the object. It is obviously more complicated to apply transformations to objects than to points, as different transformations have to be applied in different spaces, for example we have to scale the position vector of all vertices or rotate the vertices around the axis in the object space while translation (and for example orbiting) can be applied to the origin(also orientation) of the object in the world space.</description>
     </item>
     
