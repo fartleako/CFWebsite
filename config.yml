@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://fartleako.github.io/CFWebsite/"
 languageCode: en-us
 title: CrossForge
 theme: "hugo-theme-learn"
