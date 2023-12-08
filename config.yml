@@ -1,0 +1,24 @@
+baseURL: ""
+languageCode: en-us
+title: CrossForge
+theme: "hugo-theme-learn"
+
+params:
+  disableNextPrev: true     # if false it shows arrows leading to the next site
+  showVisitedLinks: false    
+  disableSearch: true       # if false search bar is visible
+  disableInlineCopyToClipBoard: false
+  disableLandingPageButton: false
+  ordersectionsby: "weight"
+  themeVariant: "blue"      # logo hase the same color - if you want to change the color you also have to change the logo!
+
+menu:
+  shortcuts:
+    - name: <i class='fab fa-github'></i> Github repo   
+      identifier: ds
+      url: 'https://github.com/CrossForge/CrossForge'
+      weight: 10
+    - name: <i class='fas fa-bookmark'></i> TU Chemnitz
+      identifier: hugodoc
+      url: 'https://www.tu-chemnitz.de/informatik/GDV/'
+      weight: 20

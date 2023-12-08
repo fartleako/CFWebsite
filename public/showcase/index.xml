@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Showcase on CrossForge</title>
+    <link>/showcase/</link>
+    <description>Recent content in Showcase on CrossForge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2022 18:07:37 +0100</lastBuildDate><atom:link href="/showcase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checkpoint Race</title>
+      <link>/showcase/checkpoin_race/</link>
+      <pubDate>Mon, 07 Nov 2022 18:07:37 +0100</pubDate>
+      
+      <guid>/showcase/checkpoin_race/</guid>
+      <description>The Idea Imagine you were a bird soaring through the world, effortlessly flapping your wings or diving with remarkable speed. We wanted to create a small game from this idea. But before we could work on the realisation of the game, we had to think about a few things.
+We needed a goal for the small game itself. We wanted to show the manoeuvrability of a birds by constructing a parkour.</description>
+    </item>
+    
+    <item>
+      <title>Flappy Bird Reimagined</title>
+      <link>/showcase/flappy_bird_reimagined/</link>
+      <pubDate>Mon, 07 Nov 2022 18:07:37 +0100</pubDate>
+      
+      <guid>/showcase/flappy_bird_reimagined/</guid>
+      <description>What is Flappy Bird Reimagined? With the original hit Flappy Bird as inspiration, we have used the Crossforge engine to bring Flappy Bird into 3 dimensions, our protagonist in this case is a hummingbird who maneuvers his way through the endless rows of buildings.
+How it was made In the following sections, we will briefly introduce the parts that make up Flappy Bird Reimagined
+Our &amp;ldquo;protagonist&amp;rdquo; / actor For our main character, we used a hummingbird model from Sketchfab with pre-made animations that we customized and tailored to our needs.</description>
+    </item>
+    
+    <item>
+      <title>Map-Builder Prototype</title>
+      <link>/showcase/mapbuilder/</link>
+      <pubDate>Mon, 07 Nov 2022 18:07:37 +0100</pubDate>
+      
+      <guid>/showcase/mapbuilder/</guid>
+      <description>Why a mapbuilder? During the creation of the Checkpoin Race , we wanted to try and create a map builder that would allow you to create and play new maps. We were only able to develop a simple prototype, but we still wanted to show how we did it.
+Our approach When starting out, we decided to use a grid-based builder to keep the overall structure simple.
+Our aim is to highlight the specific functions we have implemented, starting with the creation of the grid</description>
+    </item>
+    
+    <item>
+      <title>Licenses</title>
+      <link>/showcase/licenses_showcases/</link>
+      <pubDate>Mon, 07 Nov 2022 18:07:37 +0100</pubDate>
+      
+      <guid>/showcase/licenses_showcases/</guid>
+      <description>Checkpoint Race Actor (Eagle) This work is based on &amp;ldquo;White Eagle Animation Fast Fly&amp;rdquo; (https://sketchfab.com/3d-models/white-eagle-animation-fast-fly-30203bf39e5145f19c79e83c550139d3) by GremorySaiyan (https://sketchfab.com/GremorySaiyan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/) (edited and animated by hand)
+Buildings used Tall Light Building This work is based on &amp;ldquo;Building 06&amp;rdquo; (https://sketchfab.com/3d-models/building-06-162a09fdfe7a4accb69bedb04b633e7f) by Shalmon (https://sketchfab.com/nashalanandas) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Tall Grey Building This work is based on &amp;ldquo;Building 07&amp;rdquo; (https://sketchfab.com/3d-models/building-07-e1f85752415047e986a7e60d3789886f) by Shalmon (https://sketchfab.com/nashalanandas) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Small Red Building This work is based on &amp;ldquo;Building 08&amp;rdquo; (https://sketchfab.</description>
+    </item>
+    
+  </channel>
+</rss>

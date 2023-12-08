@@ -1,0 +1,2184 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.107.0">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/crossIcon1.png" type="image/png">
+
+    <title>Markdown Guide :: CrossForge</title>
+
+    
+    <link href="/css/nucleus.css?1702064442" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1702064442" rel="stylesheet">
+    <link href="/css/hybrid.css?1702064442" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1702064442" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1702064442" rel="stylesheet">
+    <link href="/css/auto-complete.css?1702064442" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1702064442" rel="stylesheet">
+    <link href="/css/theme.css?1702064442" rel="stylesheet">
+    <link href="/css/tabs.css?1702064442" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1702064442" rel="stylesheet">
+    
+    <link href="/css/theme-blue.css?1702064442" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1702064442"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/how_to_contribute/markdown_guide/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <h3><a href="http://localhost:1313/"> <img src="/CrossForgeLogo2.png" alt=""/></a></h3>
+    </div>
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/basic_concepts/" title="Basic Concepts" class="dd-item
+        
+        
+        
+        ">
+      <a href="/basic_concepts/">
+          Basic Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/getting_started/" title="Installation" class="dd-item ">
+        <a href="/basic_concepts/getting_started/">
+        Installation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/basic_structure/" title="Basic Program Structure" class="dd-item ">
+        <a href="/basic_concepts/basic_structure/">
+        Basic Program Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/graphics_pipeline/" title="Graphics Pipeline Structure" class="dd-item ">
+        <a href="/basic_concepts/graphics_pipeline/">
+        Graphics Pipeline Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/using_assets/" title="Loading and Storing Assets" class="dd-item ">
+        <a href="/basic_concepts/using_assets/">
+        Loading and Storing Assets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/putting_it_all_together/" title="Putting it all together" class="dd-item ">
+        <a href="/basic_concepts/putting_it_all_together/">
+        Putting it all together
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/advanced_concepts/" title="Advanced Concepts" class="dd-item
+        
+        
+        
+        ">
+      <a href="/advanced_concepts/">
+          Advanced Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/input/" title="Handling Input" class="dd-item ">
+        <a href="/advanced_concepts/input/">
+        Handling Input
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/multi_viewport/" title="Multi Viewport" class="dd-item ">
+        <a href="/advanced_concepts/multi_viewport/">
+        Multi Viewport
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/material_system/" title="PBS Material System" class="dd-item ">
+        <a href="/advanced_concepts/material_system/">
+        PBS Material System
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/shader/" title="Shader System" class="dd-item ">
+        <a href="/advanced_concepts/shader/">
+        Shader System
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/callback_system/" title="Callback System" class="dd-item ">
+        <a href="/advanced_concepts/callback_system/">
+        Callback System
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/sockets/" title="Sockets" class="dd-item ">
+        <a href="/advanced_concepts/sockets/">
+        Sockets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/platform_independency/" title="Keeping Platform Independency " class="dd-item ">
+        <a href="/advanced_concepts/platform_independency/">
+        Keeping Platform Independency 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/" title="Graphical Lectures" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/">
+          Graphical Lectures
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/moving_objects/" title="Moving Objects" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/moving_objects/">
+          Moving Objects
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/moving_objects/transformation/" title="Transformations" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/moving_objects/transformation/">
+          Transformations
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/moving_objects/transformation/example/" title="Solarsystem 1" class="dd-item ">
+        <a href="/graphics_lectures/moving_objects/transformation/example/">
+        Solarsystem 1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/moving_objects/scenegraph/" title="Scenegraph" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/moving_objects/scenegraph/">
+          Scenegraph
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/moving_objects/scenegraph/example/" title="Solarsystem 2" class="dd-item ">
+        <a href="/graphics_lectures/moving_objects/scenegraph/example/">
+        Solarsystem 2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/moving_objects/virtual_camera/" title="Virtual Camera" class="dd-item ">
+        <a href="/graphics_lectures/moving_objects/virtual_camera/">
+        Virtual Camera
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/moving_objects/frustum_culling/" title="View Frustum Culling" class="dd-item ">
+        <a href="/graphics_lectures/moving_objects/frustum_culling/">
+        View Frustum Culling
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/lighting/" title="Lighting" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/lighting/">
+          Lighting
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/lighting/pbr/" title="Physically Based Shading" class="dd-item ">
+        <a href="/graphics_lectures/lighting/pbr/">
+        Physically Based Shading
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/lighting/light_sources/" title="Light Sources" class="dd-item ">
+        <a href="/graphics_lectures/lighting/light_sources/">
+        Light Sources
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/lighting/shadows/" title="Casting Shadows" class="dd-item ">
+        <a href="/graphics_lectures/lighting/shadows/">
+        Casting Shadows
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/animations/" title="All about Animations" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/animations/">
+          All about Animations
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/animations/morphing/" title="Morphing" class="dd-item ">
+        <a href="/graphics_lectures/animations/morphing/">
+        Morphing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/animations/skeletal_animation/" title="Skeletal Animation" class="dd-item ">
+        <a href="/graphics_lectures/animations/skeletal_animation/">
+        Skeletal Animation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/fun_with_textures/" title="Fun with Textures" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/fun_with_textures/">
+          Fun with Textures
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/fun_with_textures/skybox/" title="Skybox" class="dd-item ">
+        <a href="/graphics_lectures/fun_with_textures/skybox/">
+        Skybox
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/fun_with_textures/normal_displacement_mapping/" title="Normal and Displacement Mapping" class="dd-item ">
+        <a href="/graphics_lectures/fun_with_textures/normal_displacement_mapping/">
+        Normal and Displacement Mapping
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/graphical_user_interface/" title="Graphical User Interface - GUI" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/graphical_user_interface/">
+          Graphical User Interface - GUI
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/graphical_user_interface/dear_imgui/" title="Dear ImGUI" class="dd-item ">
+        <a href="/graphics_lectures/graphical_user_interface/dear_imgui/">
+        Dear ImGUI
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/graphical_user_interface/text_rendering/" title="Text Rendering" class="dd-item ">
+        <a href="/graphics_lectures/graphical_user_interface/text_rendering/">
+        Text Rendering
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/showcase/" title="Showcase" class="dd-item
+        
+        
+        
+        ">
+      <a href="/showcase/">
+          Showcase
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/showcase/checkpoin_race/" title="Checkpoint Race" class="dd-item ">
+        <a href="/showcase/checkpoin_race/">
+        Checkpoint Race
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/showcase/flappy_bird_reimagined/" title="Flappy Bird Reimagined" class="dd-item ">
+        <a href="/showcase/flappy_bird_reimagined/">
+        Flappy Bird Reimagined
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/showcase/mapbuilder/" title="Map-Builder Prototype" class="dd-item ">
+        <a href="/showcase/mapbuilder/">
+        Map-Builder Prototype
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/showcase/licenses_showcases/" title="Licenses" class="dd-item ">
+        <a href="/showcase/licenses_showcases/">
+        Licenses
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/how_to_contribute/" title="How to contribute" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/how_to_contribute/">
+          How to contribute
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/how_to_contribute/markdown_guide/" title="Markdown Guide" class="dd-item active">
+        <a href="/how_to_contribute/markdown_guide/">
+        Markdown Guide
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/how_to_contribute/shortcodes/" title="Shortcodes" class="dd-item ">
+        <a href="/how_to_contribute/shortcodes/">
+        Shortcodes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/how_to_contribute/about_this_site/" title="About This Site" class="dd-item ">
+        <a href="/how_to_contribute/about_this_site/">
+        About This Site
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/CrossForge/CrossForge"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://www.tu-chemnitz.de/informatik/GDV/"><i class='fas fa-bookmark'></i> TU Chemnitz</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Introduction</a> > <a href='/how_to_contribute/'>How to contribute</a> > Markdown Guide
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#create-links">Create links</a>
+      <ul>
+        <li><a href="#to-an-external-site">To an external site</a></li>
+        <li><a href="#an-internal-link">An internal link</a></li>
+      </ul>
+    </li>
+    <li><a href="#codeblocks">Codeblocks</a></li>
+    <li><a href="#empty-or-new-lines">Empty or new lines</a></li>
+    <li><a href="#add-pictures-and-gifs">Add pictures and gifs</a></li>
+    <li><a href="#horizontal-lines">Horizontal lines</a></li>
+    <li><a href="#tables">Tables</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Markdown Guide
+            </h1>
+          
+
+        
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"
+    integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4"
+    crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+
+<h4 id="hugo-uses-markdown-files-for-this-reason-it-is-quite-easy-to-fill-the-website-with-knowledge-the-markdown-guidehttpswwwmarkdownguideorgbasic-syntax-should-help-you-to-get-quickly-into-the-file-format">Hugo uses markdown files. For this reason it is quite easy to fill the website with knowledge. The <a href="https://www.markdownguide.org/basic-syntax/">markdown guide</a> should help you to get quickly into the file format.</h4>
+<p>Below we have also listed the most usefull markdown syntax which we have used to create this site.</p>
+<h2 id="create-links">Create links</h2>
+<h3 id="to-an-external-site">To an external site</h3>
+<h4 id="a-plain-link">A plain link</h4>
+<p>This is quite easy. Either way you just paste the url: <a href="https://github.com/CrossForge/CrossForge">https://github.com/CrossForge/CrossForge</a>.</p>
+<p>In code this looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>... just paste the url: https://github.com/CrossForge/CrossForge
+</span></span></code></pre></div><h4 id="a-hidden-link">A hidden link</h4>
+<p>The nicer way is to &ldquo;hide&rdquo; the link like this: <a href="https://github.com/CrossForge/CrossForge">CrossFoge</a>.
+This can be achieved by putting the displayed name into square brackets and the link afterwards into parentheses. In code it looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>like this: [<span style="color:#f92672">CrossFoge</span>](<span style="color:#a6e22e">https://github.com/CrossForge/CrossForge</span>).
+</span></span></code></pre></div><h3 id="an-internal-link">An internal link</h3>
+<p>If you want to reference a page on the same website, this is done by stating the relative path like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>[<span style="color:#f92672">First Steps</span>](<span style="color:#a6e22e">/basic_concepts/getting_started/</span>)
+</span></span></code></pre></div><p>The easiest way is just to copy the link (the url) and state it after the brackets.</p>
+<h2 id="codeblocks">Codeblocks</h2>
+<p>Till now you may have seen a couple code blocks. They look like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>m_WinWidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">1280</span>;
+</span></span><span style="display:flex;"><span>m_WinHeight <span style="color:#f92672">=</span> <span style="color:#ae81ff">720</span>;
+</span></span></code></pre></div><p>or like this: <code>m_WinWidth = 1280</code>.</p>
+<p>The upper one can be created with three &ldquo;`&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>⠀```md - you state your language here (like md for markdown)
+</span></span><span style="display:flex;"><span> here comes your code
+</span></span><span style="display:flex;"><span>⠀```
+</span></span></code></pre></div><p>The inline code block can be created with two &ldquo;`&rdquo; between which you write your code.</p>
+<h2 id="empty-or-new-lines">Empty or new lines</h2>
+<p>New or empty lines like</p>
+<p> </p>
+<p>this. Can be added via <code>&amp;nbsp;</code> command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>New or empty lines like
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&amp;nbsp; 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>this. Can be added via <span style="color:#e6db74">`&amp;nbsp;`</span> command. 
+</span></span></code></pre></div><h2 id="add-pictures-and-gifs">Add pictures and gifs</h2>
+<p>Pictures and gifs are added in the same way. First you have to add the according file to the static folder of the framework. Afterwards you can reference this picture in every other file via the relative path.</p>
+<p>The result looks like this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>![<span style="color:#f92672">multiple view ports scene as a gif</span>](<span style="color:#a6e22e">/multipleViewPorts.gif</span>)
+</span></span></code></pre></div><p>You can find the command to add an image here.</p>
+<h2 id="horizontal-lines">Horizontal lines</h2>
+<p>To seperate certain topics from one another you can use horizontal lines.</p>
+<hr>
+<p>These can be written as followed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>--- or <span style="font-style:italic">**</span>* or ___ 
+</span></span></code></pre></div><p>Please leave on blank line before and after every horizontal line.</p>
+<h2 id="tables">Tables</h2>
+<p>In need of a table? See how it&rsquo;s done in the following section.</p>
+<h4 id="1-first-of-all-we-can-use--to-differentiate-between-columns-and-secondly-we-need-end-rows-to-designate-the-header----">1) First of all we can use &ldquo;<code>|</code>&rdquo; to differentiate between columns and secondly we need end rows to designate the header &ldquo;<code>|---|</code>&rdquo;</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>| Column1 | Column2 |
+</span></span><span style="display:flex;"><span>|---|---|
+</span></span></code></pre></div><p>This results in:</p>
+<table>
+<thead>
+<tr>
+<th>Column1</th>
+<th>Column2</th>
+</tr>
+</thead>
+</table>
+<hr>
+<h4 id="2-to-add-content-simply-add-them-like-so">2) To add content simply add them like so:</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>| Column1 | Column2 |
+</span></span><span style="display:flex;"><span>|---|---|
+</span></span><span style="display:flex;"><span>|Content1|Content2|
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>Column1</th>
+<th>Column2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content1</td>
+<td>Content2</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="3-one-way-of-centering-the-whole-column-is-by-placing--before-and-after-the-----inside-of----">3) One way of centering the whole Column is by placing &ldquo;<code>:</code>&rdquo; before and after the &ldquo;<code>---</code>&rdquo; inside of &ldquo;<code>|---|</code>&rdquo;</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>| Column1 | Column2 |
+</span></span><span style="display:flex;"><span>|:---:|---|
+</span></span><span style="display:flex;"><span>|Content1|Content2|
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th style="text-align:center">Column1</th>
+<th>Column2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Content1</td>
+<td>Content2</td>
+</tr>
+</tbody>
+</table>
+<p>Here you can learn more about <a href="https://www.markdownguide.org/extended-syntax/">tables in markdown</a>.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1702064442"></script>
+    <script src="/js/perfect-scrollbar.min.js?1702064442"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1702064442"></script>
+    <script src="/js/jquery.sticky.js?1702064442"></script>
+    <script src="/js/featherlight.min.js?1702064442"></script>
+    <script src="/js/highlight.pack.js?1702064442"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1702064442"></script>
+    <script src="/js/learn.js?1702064442"></script>
+    <script src="/js/hugo-learn.js?1702064442"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1702064442"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

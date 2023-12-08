@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced on CrossForge</title>
+    <link>CForgeHUB/concepts/advanced/</link>
+    <description>Recent content in Advanced on CrossForge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Nov 2022 14:41:58 +0100</lastBuildDate><atom:link href="CForgeHUB/concepts/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Morphing</title>
+      <link>CForgeHUB/concepts/advanced/morphing/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:08 +0100</pubDate>
+      
+      <guid>CForgeHUB/concepts/advanced/morphing/</guid>
+      <description>Automatically transforming a form/model to another through a seamless transition by geometric interpolation is called Morphing. There are various applications for this, the most typical ones are face animations, creating variations or combinations and some other simple animations. With Examples/exampleMorphTargetAnimation.hpp we will show you how Crossforge implements Morphing with face animations.
+The basis of the Morph Target Animation consists of two classes: MorphTargetActor and MorphTargetAnimationController
+MorphTargetActor m_Face; MorphTargetAnimationController m_MTController; For this to work we first need a base model, which is a male face.</description>
+    </item>
+    
+    <item>
+      <title>Skeletal Animation</title>
+      <link>CForgeHUB/concepts/advanced/skeletal_animation/</link>
+      <pubDate>Sun, 20 Nov 2022 12:01:15 +0100</pubDate>
+      
+      <guid>CForgeHUB/concepts/advanced/skeletal_animation/</guid>
+      <description>Skeletal Animation, also called rigging, is appliable when an object consists of two parts: a surface and jointed, but individually rigid bodies called bones. The entirety of these bones is called a skeleton hence skeletal animation. Given the nature of these bones they can be animated seperately while still influencing other bones in their position and/or orientation, which is why the skeleton can also be seen as a hierarchy/tree, since transformation in a higher node/bone will also apply to the child nodes/bones.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.105.0">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/CForgeHUB/images/crossIcon1.png" type="image/png">
+
+    <title>Scenegraph :: CrossForge</title>
+
+    
+    <link href="/CForgeHUB/css/nucleus.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/fontawesome-all.min.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/hybrid.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/featherlight.min.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/perfect-scrollbar.min.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/auto-complete.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/atom-one-dark-reasonable.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/theme.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/tabs.css?1677668509" rel="stylesheet">
+    <link href="/CForgeHUB/css/hugo-theme.css?1677668509" rel="stylesheet">
+    
+    <link href="/CForgeHUB/css/theme-blue.css?1677668509" rel="stylesheet">
+    
+    
+
+    <script src="/CForgeHUB/js/jquery-3.3.1.min.js?1677668509"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="CForgeHUB/concepts/basic/scenegraph/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <h3><a href="http://localhost:1313/"> <img src="/CrossForgeLogo2.png" alt=""/></a></h3>
+    </div>
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/first_steps/" title="First Steps" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/first_steps/">
+          First Steps
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/first_steps/tutorial/" title="Installation" class="dd-item ">
+        <a href="CForgeHUB/first_steps/tutorial/">
+        Installation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/first_steps/firststart/" title="First Running Programm" class="dd-item ">
+        <a href="CForgeHUB/first_steps/firststart/">
+        First Running Programm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/" title="Your First Scene" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/">
+          Your First Scene
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/setting_up_scene/" title="Setting up a Scene" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/setting_up_scene/">
+          Setting up a Scene
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/basic_scene/" title="Basic Scene" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/basic_scene/">
+          Basic Scene
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/" title="Concepts" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/">
+          Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/basic/" title="Basic" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/basic/">
+          Basic
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/skybox/" title="Skybox" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/skybox/">
+        Skybox
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/multi_viewport/" title="Multi Viewport" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/multi_viewport/">
+        Multi Viewport
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/scenegraph/" title="Scenegraph" class="dd-item active">
+        <a href="CForgeHUB/concepts/basic/scenegraph/">
+        Scenegraph
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/sockets/" title="Sockets" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/sockets/">
+        Sockets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/advanced/" title="Advanced" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/advanced/">
+          Advanced
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/advanced/morphing/" title="Morphing" class="dd-item ">
+        <a href="CForgeHUB/concepts/advanced/morphing/">
+        Morphing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/advanced/skeletal_animation/" title="Skeletal Animation" class="dd-item ">
+        <a href="CForgeHUB/concepts/advanced/skeletal_animation/">
+        Skeletal Animation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/graphics_lecture/" title="Graphics Lectures" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/graphics_lecture/">
+          Graphics Lectures
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/graphics_lecture/vectors/" title="Vectors" class="dd-item ">
+        <a href="CForgeHUB/graphics_lecture/vectors/">
+        Vectors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/graphics_lecture/transformation/" title="Transformations" class="dd-item ">
+        <a href="CForgeHUB/graphics_lecture/transformation/">
+        Transformations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/showcase/" title="Showcase" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/showcase/">
+          Showcase
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/how_to_contribute/" title="How to contribute" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/how_to_contribute/">
+          How to contribute
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/how_to_contribute/markdown_guide/" title="Markdown Guide" class="dd-item ">
+        <a href="CForgeHUB/how_to_contribute/markdown_guide/">
+        Markdown Guide
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/how_to_contribute/shortcodes/" title="Shortcodes" class="dd-item ">
+        <a href="CForgeHUB/how_to_contribute/shortcodes/">
+        Shortcodes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/CrossForge/CrossForge"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://www.tu-chemnitz.de/informatik/GDV/"><i class='fas fa-bookmark'></i> TU Chemnitz</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="CForgeHUB/CForgeHUB/wiki/"><i class='fas fa-bookmark'></i> About the Wiki</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='CForgeHUB/'>Introduction</a> > <a href='CForgeHUB/concepts/'>Concepts</a> > <a href='CForgeHUB/concepts/basic/'>Basic</a> > Scenegraph
+          
+        
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Scenegraph
+            </h1>
+          
+
+        
+
+
+
+<h4 id="a-scenegraph-is-a-data-structur-which-allows-inheritance-of-data-manipulation-for-instance-rotation-scaling-or-transformation-it-is-often-used-in-frameworks-and-engines-to-easily-display-objects-for-example-you-can-connect-the-tires-with-the-rest-a-car-therefore-you-can-scale-the-tires-diffently-then-the-chassies-in-this-manner-you-can-build-your-hole-scene---thats-why-it-is-called-scenegraph">A scenegraph is a data structur which allows inheritance of data manipulation (for instance rotation, scaling or transformation). It is often used in frameworks and engines to easily display objects. For example you can &ldquo;connect&rdquo; the tires with the rest a car. Therefore you can scale the tires diffently then the chassies. In this manner you can build your hole scene - thats why it is called scenegraph.</h4>
+<p>Before we can connect models via a scenegraph, we have to create the root of the scenegraph itself - we can do that via a <strong>SGNTransformation</strong>-Node. It is allways good to remember which node is the root itself. For that reason we called it in our example <strong>m_RootSGN</strong>.</p>
+<p>After that we can initialze the root and connect to the scengraph. An instance of a scenegraph is already defined in the exampleSceneBase.hpp, so we do not have to define it ourselfs.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>SGNTransformation m_RootSGN;
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>m_RootSGN.init(<span style="color:#66d9ef">nullptr</span>);
+</span></span><span style="display:flex;"><span>m_SG.rootNode(<span style="color:#f92672">&amp;</span>m_RootSGN);
+</span></span></code></pre></div><p>Before we can connect any further nodes we need to load the according models.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>SAssetIO<span style="color:#f92672">::</span>load(<span style="color:#e6db74">&#34;Assets/ExampleScenes/TexturedGround.gltf&#34;</span>, <span style="color:#f92672">&amp;</span>M);
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>SAssetIO<span style="color:#f92672">::</span>load(<span style="color:#e6db74">&#34;Assets/ExampleScenes/Trees/LowPolyTree_01.glb&#34;</span>, <span style="color:#f92672">&amp;</span>M);
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><p>As you now have guessed the root is initialized but till now we do not display any model.
+There are two important nodes which you need to know in order to understand the behaviour of the scengraph.</p>
+<ul>
+<li>In first that is the <strong>SGNTransformation</strong>. It is added first to the scengraph. Trough an instance of this node you can scale, transform (i.e. move) an object and even rotate it. You can even connect multible transform nodes together to &ldquo;add&rdquo; the transformations.</li>
+<li>Secondly there is the <strong>SGNGeometry</strong>. This is more or lesse the &ldquo;real&rdquo; geometry of the object. For example, you want to set a tree initial to the position (3,2,6) and you also want to scale it to halfe the size, you can do that. This node is allways connect to a transform node - otherwise you can not change a paramter afterwards.</li>
+</ul>
+<p>Now we connect the ground node to the root itself. The <strong>.init</strong> functions holds two parameters, the first is the parent - the transformation node which you want to connect to and the second parameter is the renderable object. In our case that is <strong>m_Ground</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>StaticActor m_Ground;
+</span></span><span style="display:flex;"><span>SGNGeometry m_GroundSGN;
+</span></span><span style="display:flex;"><span>SGNTransformation m_GroundTransformSGN;
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// initialize ground transformation and geometry scene graph node
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_GroundTransformSGN.init(<span style="color:#f92672">&amp;</span>m_RootSGN);
+</span></span><span style="display:flex;"><span>m_GroundSGN.init(<span style="color:#f92672">&amp;</span>m_GroundTransformSGN, <span style="color:#f92672">&amp;</span>m_Ground);
+</span></span><span style="display:flex;"><span>m_GroundSGN.scale(Vector3f(<span style="color:#ae81ff">15.0f</span>, <span style="color:#ae81ff">15.0f</span>, <span style="color:#ae81ff">15.0f</span>));
+</span></span></code></pre></div><p>Till now our scengraph looks a bit like this:
+
+<div class="mermaid" align="middle">
+graph TD;
+    root([m_RootSGN])
+    groundTransform([m_GroundTransformSGN])
+    groundSGN([m_GroundSGN])
+    root ==> groundTransform
+    groundTransform ==> groundSGN 
+</div>
+</p>
+<p>In our example we want to display a group of trees. It would be to much work to connect 10 trees by hand let alone 100 or more. So we just create one transformation node for all further trees which we call m_TreeGroupSGN and connect it to the root. After that we implement a for-loop where we specify the number of trees we want to display.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// sceen graph node that holds our forest
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_TreeGroupSGN.init(<span style="color:#f92672">&amp;</span>m_RootSGN);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> Area <span style="color:#f92672">=</span> <span style="color:#ae81ff">500.0f</span>;	<span style="color:#75715e">// square area [-Area, Area] on the xz-plane, where trees are planted
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">float</span> TreeCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">900</span>;	<span style="color:#75715e">// number of trees to crea
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">uint32_t</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> TreeCount; <span style="color:#f92672">++</span>i){
+</span></span></code></pre></div><p>In the for-loop itself we create the nodes itself, initalize them and connect them to m_TreeGroupSGN node. For this reason we can controll the attribute of each tree individually. We could make the trees with each itteration of the loop bigger, smaller or put a bit of randomness into the game. So we can scale them between two values and set them anywhere in the world via a pseudo random number generator.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// create the scene graph nodes
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>SGNGeometry<span style="color:#f92672">*</span> pGeomSGN <span style="color:#f92672">=</span> <span style="color:#66d9ef">nullptr</span>;
+</span></span><span style="display:flex;"><span>SGNTransformation<span style="color:#f92672">*</span> pTransformSGN <span style="color:#f92672">=</span> nullp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// initialize position and scaling of the tree
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>pTransformSGN <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SGNTransformation();
+</span></span><span style="display:flex;"><span>pTransformSGN<span style="color:#f92672">-&gt;</span>init(<span style="color:#f92672">&amp;</span>m_TreeGroupSGN);
+</span></span></code></pre></div><p>We set the world to a size of 1000x1000 with the area. In this area we can randomly set the trees now. We just generate two random numbers for the coordinates of the tree. Remeber we do that for each tree, so each time we load up the programm the forest is different.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>Vector3f TreePos <span style="color:#f92672">=</span> Vector3f<span style="color:#f92672">::</span>Zero();
+</span></span><span style="display:flex;"><span>TreePos.x() <span style="color:#f92672">=</span> CoreUtility<span style="color:#f92672">::</span>randRange(<span style="color:#f92672">-</span>Area, Area);
+</span></span><span style="display:flex;"><span>TreePos.z() <span style="color:#f92672">=</span> CoreUtility<span style="color:#f92672">::</span>randRange(<span style="color:#f92672">-</span>Area, Area);
+</span></span><span style="display:flex;"><span>pTransformSGN<span style="color:#f92672">-&gt;</span>translation(TreePos);
+</span></span></code></pre></div><p>It is good to set the trees to different postions - but trees are also never the same hight. Therefore we can set the scale of the trees randomly as well.</p>
+<p>In the last step we need to connect the geometry itself to the forest. To make the forest a bit more interesting we also choose on of three tree models randomly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// initialize geometry
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// choose one of the trees randomly
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>pGeomSGN <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SGNGeometry();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">uint8_t</span> TreeType <span style="color:#f92672">=</span> CoreUtility<span style="color:#f92672">::</span>rand() <span style="color:#f92672">%</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span>pGeomSGN<span style="color:#f92672">-&gt;</span>init(pTransformSGN, <span style="color:#f92672">&amp;</span>m_Trees[TreeType]);
+</span></span></code></pre></div><p>If you want, you can add a tree model by yourself and thinker around. Don&rsquo;t forget to change the value then to <code>rand() % 4</code> or how many models you have.</p>
+<p>The scengraph should now look a bit like this but with 900 trees not just two:
+
+<div class="mermaid" align="middle">
+    graph TD;
+    root([m_RootSGN])
+    groundTransform([m_GroundTransformSGN])
+    groundSGN([m_GroundSGN])
+    forestTransform([m_TreeGroupSGN])
+    
+    tree1transform([Tree-1-Transform])
+    tree1SGN([Tree-1-SGN])
+    
+    tree_I_transform([Tree-i-Transform])
+    tree_I_SGN([Tree-i-SGN])
+    
+    %%tree_N_transform([Tree-n-Transform])
+    %%tree_N_SGN([Tree-n-Transform])
+
+    %%subgraph treeN [ ]
+    %%tree_N_transform
+    %%tree_N_SGN
+    %%end
+
+    subgraph treei [ ]
+    tree_I_transform
+    tree_I_SGN
+    end
+
+    subgraph tree1 [ ]
+    tree1transform
+    tree1SGN
+    end
+
+    groundTransform ==> groundSGN 
+
+    root ==> groundTransform
+    root ==> forestTransform
+
+    forestTransform ==>|Tree 1| tree1transform
+    forestTransform -.->|Tree i| tree_I_transform
+    %%forestTransform -.->|Tree n| tree_N_transform
+
+    tree1transform --> tree1SGN
+    tree_I_transform --> tree_I_SGN
+    %%tree_N_transform --> tree_N_SGN
+
+    %% This link is a picture of this specific flowchart
+    %% [![](https://mermaid.ink/img/pako:eNp1lM9vgyAUgP8VQmKyJWWJV5f21KTZYR5Wb7VpWGEtWQCDeFhq__eBigiqB388vvehjycPeJWEwgyCm8LVHRT791IAcygp9cuJX77M9XjIz699-KZkI0ihsKh_pOKWOIShGWwCHpuMGpjWOlAVilLLVROsP2szkmrPWhKlaMx2dMd1Mw7EounycYldbNllSG9jc1uSdFQ-84m5b2S9MaIcVzff_XLYhBycwHlttrnZRaggThjomNfFpYg_u39eE6WhKF3QpEuSqIXAdrvznQIcZftvMlSE8nE0aiKXHYUt2tqCg7RdfNmYR29oSGDtSpmSZD1JDEnBQi2VCiC0iyoVzzYi0zWZN4LHhi6AG8ip4pgR83c_bFoJ9Z1yWsLM3BKsfktYiqfhcKPl8U9cYaZVQzewqQjWdM-wWWzugpQwLdVnv1t0m8bzH2bwad0?type=png)](https://mermaid.live/edit#pako:eNp1lM9vgyAUgP8VQmKyJWWJV5f21KTZYR5Wb7VpWGEtWQCDeFhq__eBigiqB388vvehjycPeJWEwgyCm8LVHRT791IAcygp9cuJX77M9XjIz699-KZkI0ihsKh_pOKWOIShGWwCHpuMGpjWOlAVilLLVROsP2szkmrPWhKlaMx2dMd1Mw7EounycYldbNllSG9jc1uSdFQ-84m5b2S9MaIcVzff_XLYhBycwHlttrnZRaggThjomNfFpYg_u39eE6WhKF3QpEuSqIXAdrvznQIcZftvMlSE8nE0aiKXHYUt2tqCg7RdfNmYR29oSGDtSpmSZD1JDEnBQi2VCiC0iyoVzzYi0zWZN4LHhi6AG8ip4pgR83c_bFoJ9Z1yWsLM3BKsfktYiqfhcKPl8U9cYaZVQzewqQjWdM-wWWzugpQwLdVnv1t0m8bzH2bwad0)
+
+</div>
+</p>
+<p>If we would star the framework now, it could look like this:
+<img src="/scenegraph.JPG" alt="scnegraph"></p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/CForgeHUB/js/clipboard.min.js?1677668509"></script>
+    <script src="/CForgeHUB/js/perfect-scrollbar.min.js?1677668509"></script>
+    <script src="/CForgeHUB/js/perfect-scrollbar.jquery.min.js?1677668509"></script>
+    <script src="/CForgeHUB/js/jquery.sticky.js?1677668509"></script>
+    <script src="/CForgeHUB/js/featherlight.min.js?1677668509"></script>
+    <script src="/CForgeHUB/js/highlight.pack.js?1677668509"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/CForgeHUB/js/modernizr.custom-3.6.0.js?1677668509"></script>
+    <script src="/CForgeHUB/js/learn.js?1677668509"></script>
+    <script src="/CForgeHUB/js/hugo-learn.js?1677668509"></script>
+    
+        
+            <script src="/CForgeHUB/mermaid/mermaid.js?1677668509"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

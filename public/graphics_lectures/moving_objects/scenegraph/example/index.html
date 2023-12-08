@@ -1,0 +1,2199 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.107.0">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/crossIcon1.png" type="image/png">
+
+    <title>Solarsystem 2 :: CrossForge</title>
+
+    
+    <link href="/css/nucleus.css?1702064442" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1702064442" rel="stylesheet">
+    <link href="/css/hybrid.css?1702064442" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1702064442" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1702064442" rel="stylesheet">
+    <link href="/css/auto-complete.css?1702064442" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1702064442" rel="stylesheet">
+    <link href="/css/theme.css?1702064442" rel="stylesheet">
+    <link href="/css/tabs.css?1702064442" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1702064442" rel="stylesheet">
+    
+    <link href="/css/theme-blue.css?1702064442" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1702064442"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/graphics_lectures/moving_objects/scenegraph/example/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <h3><a href="http://localhost:1313/"> <img src="/CrossForgeLogo2.png" alt=""/></a></h3>
+    </div>
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/basic_concepts/" title="Basic Concepts" class="dd-item
+        
+        
+        
+        ">
+      <a href="/basic_concepts/">
+          Basic Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/getting_started/" title="Installation" class="dd-item ">
+        <a href="/basic_concepts/getting_started/">
+        Installation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/basic_structure/" title="Basic Program Structure" class="dd-item ">
+        <a href="/basic_concepts/basic_structure/">
+        Basic Program Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/graphics_pipeline/" title="Graphics Pipeline Structure" class="dd-item ">
+        <a href="/basic_concepts/graphics_pipeline/">
+        Graphics Pipeline Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/using_assets/" title="Loading and Storing Assets" class="dd-item ">
+        <a href="/basic_concepts/using_assets/">
+        Loading and Storing Assets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basic_concepts/putting_it_all_together/" title="Putting it all together" class="dd-item ">
+        <a href="/basic_concepts/putting_it_all_together/">
+        Putting it all together
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/advanced_concepts/" title="Advanced Concepts" class="dd-item
+        
+        
+        
+        ">
+      <a href="/advanced_concepts/">
+          Advanced Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/input/" title="Handling Input" class="dd-item ">
+        <a href="/advanced_concepts/input/">
+        Handling Input
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/multi_viewport/" title="Multi Viewport" class="dd-item ">
+        <a href="/advanced_concepts/multi_viewport/">
+        Multi Viewport
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/material_system/" title="PBS Material System" class="dd-item ">
+        <a href="/advanced_concepts/material_system/">
+        PBS Material System
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/shader/" title="Shader System" class="dd-item ">
+        <a href="/advanced_concepts/shader/">
+        Shader System
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/callback_system/" title="Callback System" class="dd-item ">
+        <a href="/advanced_concepts/callback_system/">
+        Callback System
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/sockets/" title="Sockets" class="dd-item ">
+        <a href="/advanced_concepts/sockets/">
+        Sockets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced_concepts/platform_independency/" title="Keeping Platform Independency " class="dd-item ">
+        <a href="/advanced_concepts/platform_independency/">
+        Keeping Platform Independency 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/" title="Graphical Lectures" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/graphics_lectures/">
+          Graphical Lectures
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/moving_objects/" title="Moving Objects" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/graphics_lectures/moving_objects/">
+          Moving Objects
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/moving_objects/transformation/" title="Transformations" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/moving_objects/transformation/">
+          Transformations
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/moving_objects/transformation/example/" title="Solarsystem 1" class="dd-item ">
+        <a href="/graphics_lectures/moving_objects/transformation/example/">
+        Solarsystem 1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/moving_objects/scenegraph/" title="Scenegraph" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/graphics_lectures/moving_objects/scenegraph/">
+          Scenegraph
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/moving_objects/scenegraph/example/" title="Solarsystem 2" class="dd-item active">
+        <a href="/graphics_lectures/moving_objects/scenegraph/example/">
+        Solarsystem 2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/moving_objects/virtual_camera/" title="Virtual Camera" class="dd-item ">
+        <a href="/graphics_lectures/moving_objects/virtual_camera/">
+        Virtual Camera
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/moving_objects/frustum_culling/" title="View Frustum Culling" class="dd-item ">
+        <a href="/graphics_lectures/moving_objects/frustum_culling/">
+        View Frustum Culling
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/lighting/" title="Lighting" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/lighting/">
+          Lighting
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/lighting/pbr/" title="Physically Based Shading" class="dd-item ">
+        <a href="/graphics_lectures/lighting/pbr/">
+        Physically Based Shading
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/lighting/light_sources/" title="Light Sources" class="dd-item ">
+        <a href="/graphics_lectures/lighting/light_sources/">
+        Light Sources
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/lighting/shadows/" title="Casting Shadows" class="dd-item ">
+        <a href="/graphics_lectures/lighting/shadows/">
+        Casting Shadows
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/animations/" title="All about Animations" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/animations/">
+          All about Animations
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/animations/morphing/" title="Morphing" class="dd-item ">
+        <a href="/graphics_lectures/animations/morphing/">
+        Morphing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/animations/skeletal_animation/" title="Skeletal Animation" class="dd-item ">
+        <a href="/graphics_lectures/animations/skeletal_animation/">
+        Skeletal Animation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/fun_with_textures/" title="Fun with Textures" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/fun_with_textures/">
+          Fun with Textures
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/fun_with_textures/skybox/" title="Skybox" class="dd-item ">
+        <a href="/graphics_lectures/fun_with_textures/skybox/">
+        Skybox
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/fun_with_textures/normal_displacement_mapping/" title="Normal and Displacement Mapping" class="dd-item ">
+        <a href="/graphics_lectures/fun_with_textures/normal_displacement_mapping/">
+        Normal and Displacement Mapping
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/graphics_lectures/graphical_user_interface/" title="Graphical User Interface - GUI" class="dd-item
+        
+        
+        
+        ">
+      <a href="/graphics_lectures/graphical_user_interface/">
+          Graphical User Interface - GUI
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/graphical_user_interface/dear_imgui/" title="Dear ImGUI" class="dd-item ">
+        <a href="/graphics_lectures/graphical_user_interface/dear_imgui/">
+        Dear ImGUI
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/graphics_lectures/graphical_user_interface/text_rendering/" title="Text Rendering" class="dd-item ">
+        <a href="/graphics_lectures/graphical_user_interface/text_rendering/">
+        Text Rendering
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/showcase/" title="Showcase" class="dd-item
+        
+        
+        
+        ">
+      <a href="/showcase/">
+          Showcase
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/showcase/checkpoin_race/" title="Checkpoint Race" class="dd-item ">
+        <a href="/showcase/checkpoin_race/">
+        Checkpoint Race
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/showcase/flappy_bird_reimagined/" title="Flappy Bird Reimagined" class="dd-item ">
+        <a href="/showcase/flappy_bird_reimagined/">
+        Flappy Bird Reimagined
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/showcase/mapbuilder/" title="Map-Builder Prototype" class="dd-item ">
+        <a href="/showcase/mapbuilder/">
+        Map-Builder Prototype
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/showcase/licenses_showcases/" title="Licenses" class="dd-item ">
+        <a href="/showcase/licenses_showcases/">
+        Licenses
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/how_to_contribute/" title="How to contribute" class="dd-item
+        
+        
+        
+        ">
+      <a href="/how_to_contribute/">
+          How to contribute
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/how_to_contribute/markdown_guide/" title="Markdown Guide" class="dd-item ">
+        <a href="/how_to_contribute/markdown_guide/">
+        Markdown Guide
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/how_to_contribute/shortcodes/" title="Shortcodes" class="dd-item ">
+        <a href="/how_to_contribute/shortcodes/">
+        Shortcodes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/how_to_contribute/about_this_site/" title="About This Site" class="dd-item ">
+        <a href="/how_to_contribute/about_this_site/">
+        About This Site
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/CrossForge/CrossForge"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://www.tu-chemnitz.de/informatik/GDV/"><i class='fas fa-bookmark'></i> TU Chemnitz</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Introduction</a> > <a href='/graphics_lectures/'>Graphical Lectures</a> > <a href='/graphics_lectures/moving_objects/'>Moving Objects</a> > <a href='/graphics_lectures/moving_objects/scenegraph/'>Scenegraph</a> > Solarsystem 2
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Solarsystem 2
+            </h1>
+          
+
+        
+
+
+
+<h4 id="this-time-we-will-only-use-the-scene-graph-to-render-our-solarsystem-and-add-some-details-we-add-the-moon-and-let-it-orbit-around-the-earth-and-on-top-of-orbiting-we-add-rotation-around-their-own-axis-to-all-the-planets">This time we will only use the scene graph to render our solarsystem and add some details: we add the moon and let it orbit around the earth and on top of orbiting we add rotation around their own axis to all the planets.</h4>
+<p><img src="/transformSG.gif" alt="SolarsystemScenegraph"></p>
+<hr>
+<p>Add the moon:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>T3DMesh<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">float</span><span style="color:#f92672">&gt;</span> M;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//StaticActor m_Moon
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>SAssetIO<span style="color:#f92672">::</span>load(<span style="color:#e6db74">&#34;Assets/ExampleScenes/Solar/moon/scene.gltf&#34;</span>, <span style="color:#f92672">&amp;</span>M);
+</span></span><span style="display:flex;"><span>setMeshShader(<span style="color:#f92672">&amp;</span>M, <span style="color:#ae81ff">0.4f</span>, <span style="color:#ae81ff">0.02f</span>);
+</span></span><span style="display:flex;"><span>M.computePerVertexNormals();
+</span></span><span style="display:flex;"><span>m_Moon.init(<span style="color:#f92672">&amp;</span>M);
+</span></span><span style="display:flex;"><span>M.clear();
+</span></span></code></pre></div><p>Now to the changed scene graph: we will add <strong>Transformation Nodes</strong> for every planet. The earth is a bit special, because we split translation and rotation about own axis into two Nodes, which is done in one and the same node for other planets, because the origin of the moon will always be the earth, but we dont want the moon to orbit in the same speed as the earth rotates around its own axis. The scene graph will look like this.</p>
+
+<div class="mermaid" align="middle">
+    graph TD;
+    root([m_RootSGN])
+    solarTransform([m_SolarsystemSGN])
+    sunTransform([m_SunTransformSGN])
+    sunGeo([m_SunSGN])
+    earthTranslate([m_EarthTranslateSGN])
+    earthOrbit([m_EarthOrbitSGN])
+    earthRotation([m_EarthRotationSGN])
+    earthGeo([m_EarthSGN])
+    moonOrbit([m_MoonOrbitSGN])
+    moonTransform([m_MoonTransformSGN])
+    moonGeo([m_MoonSGN])
+    planetOrbit([m_PlanetOrbitSGN])
+    planetTransform([m_PlanetTransformSGN])
+    planetGeo([m_PlanetSGN])
+
+    subgraph Sun [ ]
+    sunTransform
+    sunGeo
+    end
+
+    subgraph Earth [ ]
+    earthTranslate
+    earthOrbit
+    earthRotation
+    earthGeo
+   
+    end
+
+    subgraph Moon [ ]
+    moonOrbit
+    moonTransform
+    moonGeo
+    end
+
+    subgraph Planet [ ]
+    planetOrbit
+    planetTransform
+    planetGeo
+    end
+
+    root ==> solarTransform
+
+    solarTransform ==> |Sun| sunTransform
+    solarTransform ==> |Earth| earthOrbit
+    solarTransform -.-> |Planet| planetOrbit
+
+    sunTransform ==> sunGeo
+
+    earthOrbit ==> earthTranslate
+
+    earthTranslate ==> earthRotation
+    earthTranslate ==> |Moon| moonOrbit
+
+    earthRotation ==> earthGeo
+
+    moonOrbit ==> moonTransform
+
+    moonTransform ==> moonGeo
+
+    planetOrbit -.-> planetTransform
+
+    planetTransform -.-> planetGeo
+
+</div>
+
+<p>And this how it is created in the code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// build scene graph
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_RootSGN.init(<span style="color:#66d9ef">nullptr</span>);
+</span></span><span style="display:flex;"><span>m_SG.init(<span style="color:#f92672">&amp;</span>m_RootSGN);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Solarsystem
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_SolarsystemSGN.init(<span style="color:#f92672">&amp;</span>m_RootSGN, Vector3f(<span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">2.0f</span>, <span style="color:#ae81ff">0.0f</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//Sun
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_SunTransformSGN.init(<span style="color:#f92672">&amp;</span>m_SolarsystemSGN);
+</span></span><span style="display:flex;"><span>m_SunSGN.init(<span style="color:#f92672">&amp;</span>m_SunTransformSGN, <span style="color:#f92672">&amp;</span>m_SunBody);
+</span></span><span style="display:flex;"><span>m_SunSGN.scale(Vector3f(<span style="color:#ae81ff">0.7f</span>, <span style="color:#ae81ff">0.7f</span>, <span style="color:#ae81ff">0.7f</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// rotation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Quaternionf R;
+</span></span><span style="display:flex;"><span>R <span style="color:#f92672">=</span> AngleAxisf(CForgeMath<span style="color:#f92672">::</span>degToRad(<span style="color:#ae81ff">20.0f</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">120.0f</span>), Vector3f<span style="color:#f92672">::</span>UnitY());
+</span></span><span style="display:flex;"><span>m_SunTransformSGN.rotationDelta(R);
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// Earth
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_EarthOrbitSGN.init(<span style="color:#f92672">&amp;</span>m_SolarsystemSGN);
+</span></span><span style="display:flex;"><span>m_EarthTranslateSGN.init(<span style="color:#f92672">&amp;</span>m_EarthOrbitSGN, Vector3f(<span style="color:#ae81ff">3.6f</span>, <span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">0.0f</span>));
+</span></span><span style="display:flex;"><span>m_EarthRotationSGN.init(<span style="color:#f92672">&amp;</span>m_EarthTranslateSGN);
+</span></span><span style="display:flex;"><span>m_EarthSGN.init(<span style="color:#f92672">&amp;</span>m_EarthRotationSGN, <span style="color:#f92672">&amp;</span>m_Earth);
+</span></span><span style="display:flex;"><span>m_EarthSGN.scale(Vector3f(<span style="color:#ae81ff">0.2f</span>, <span style="color:#ae81ff">0.2f</span>, <span style="color:#ae81ff">0.2f</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// orbiting
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>R <span style="color:#f92672">=</span> AngleAxisf(CForgeMath<span style="color:#f92672">::</span>degToRad(<span style="color:#ae81ff">40.0f</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">120.0f</span>), Vector3f<span style="color:#f92672">::</span>UnitY());
+</span></span><span style="display:flex;"><span>m_EarthOrbitSGN.rotationDelta(R);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// rotation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>R <span style="color:#f92672">=</span> AngleAxisf(CForgeMath<span style="color:#f92672">::</span>degToRad(<span style="color:#ae81ff">45.0f</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">120.0f</span>), Vector3f<span style="color:#f92672">::</span>UnitY());
+</span></span><span style="display:flex;"><span>m_EarthRotationSGN.rotationDelta(R);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Moon
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_MoonOrbitSGN.init(<span style="color:#f92672">&amp;</span>m_EarthTranslateSGN);
+</span></span><span style="display:flex;"><span>m_MoonTransformSGN.init(<span style="color:#f92672">&amp;</span>m_MoonOrbitSGN, Vector3f(<span style="color:#ae81ff">0.3f</span>, <span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">0.0f</span>));
+</span></span><span style="display:flex;"><span>m_MoonSGN.init(<span style="color:#f92672">&amp;</span>m_MoonTransformSGN, <span style="color:#f92672">&amp;</span>m_Moon);
+</span></span><span style="display:flex;"><span>m_MoonSGN.scale(Vector3f(<span style="color:#ae81ff">0.04f</span>, <span style="color:#ae81ff">0.04f</span>, <span style="color:#ae81ff">0.04f</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// orbiting
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>R <span style="color:#f92672">=</span> AngleAxisf(CForgeMath<span style="color:#f92672">::</span>degToRad(<span style="color:#ae81ff">120.0f</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">120.0f</span>), Vector3f<span style="color:#f92672">::</span>UnitY());
+</span></span><span style="display:flex;"><span>m_MoonOrbitSGN.rotationDelta(R);
+</span></span></code></pre></div><p>By chaining transformation nodes, we get the result we want: we translate the object, but we rotate around the original y-axis and not the translated one. As for the moon, it moves with the Earth and rotates around the Earth on it&rsquo;s own, meaning it rotates around the y-Axis of the objectspace of the earth.
+The <strong>rotationDelta()</strong> applies rotation everytime the scene graph is updated (<strong>m_SG.update()</strong>). So don&rsquo;t forget to add it to the main loop.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>m_SG.update(<span style="color:#ae81ff">60.0f</span> <span style="color:#f92672">/</span> m_FPS);
+</span></span></code></pre></div><p>And with that we&rsquo;ve got a bit more detailed version of the solarsystem using a scene graph. Make sure to read the complete source code in /Examples/exampleTransformationSG.hpp to get a better understanding.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1702064442"></script>
+    <script src="/js/perfect-scrollbar.min.js?1702064442"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1702064442"></script>
+    <script src="/js/jquery.sticky.js?1702064442"></script>
+    <script src="/js/featherlight.min.js?1702064442"></script>
+    <script src="/js/highlight.pack.js?1702064442"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1702064442"></script>
+    <script src="/js/learn.js?1702064442"></script>
+    <script src="/js/hugo-learn.js?1702064442"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1702064442"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

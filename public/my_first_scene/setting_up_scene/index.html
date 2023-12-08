@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.105.0">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/CForgeHUB/images/crossIcon1.png" type="image/png">
+
+    <title>Setting up a Scene :: CrossForge</title>
+
+    
+    <link href="/CForgeHUB/css/nucleus.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/fontawesome-all.min.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/hybrid.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/featherlight.min.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/perfect-scrollbar.min.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/auto-complete.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/atom-one-dark-reasonable.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/theme.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/tabs.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/hugo-theme.css?1677668510" rel="stylesheet">
+    
+    <link href="/CForgeHUB/css/theme-blue.css?1677668510" rel="stylesheet">
+    
+    
+
+    <script src="/CForgeHUB/js/jquery-3.3.1.min.js?1677668510"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="CForgeHUB/my_first_scene/setting_up_scene/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <h3><a href="http://localhost:1313/"> <img src="/CrossForgeLogo2.png" alt=""/></a></h3>
+    </div>
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/first_steps/" title="First Steps" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/first_steps/">
+          First Steps
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/first_steps/tutorial/" title="Installation" class="dd-item ">
+        <a href="CForgeHUB/first_steps/tutorial/">
+        Installation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/first_steps/firststart/" title="First Running Programm" class="dd-item ">
+        <a href="CForgeHUB/first_steps/firststart/">
+        First Running Programm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/" title="Your First Scene" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/">
+          Your First Scene
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/setting_up_scene/" title="Setting up a Scene" class="dd-item
+        
+        active
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/setting_up_scene/">
+          Setting up a Scene
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/basic_scene/" title="Basic Scene" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/basic_scene/">
+          Basic Scene
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/" title="Concepts" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/">
+          Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/basic/" title="Basic" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/basic/">
+          Basic
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/skybox/" title="Skybox" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/skybox/">
+        Skybox
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/multi_viewport/" title="Multi Viewport" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/multi_viewport/">
+        Multi Viewport
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/scenegraph/" title="Scenegraph" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/scenegraph/">
+        Scenegraph
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/sockets/" title="Sockets" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/sockets/">
+        Sockets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/advanced/" title="Advanced" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/advanced/">
+          Advanced
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/advanced/morphing/" title="Morphing" class="dd-item ">
+        <a href="CForgeHUB/concepts/advanced/morphing/">
+        Morphing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/advanced/skeletal_animation/" title="Skeletal Animation" class="dd-item ">
+        <a href="CForgeHUB/concepts/advanced/skeletal_animation/">
+        Skeletal Animation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/graphics_lecture/" title="Graphics Lectures" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/graphics_lecture/">
+          Graphics Lectures
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/graphics_lecture/vectors/" title="Vectors" class="dd-item ">
+        <a href="CForgeHUB/graphics_lecture/vectors/">
+        Vectors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/graphics_lecture/transformation/" title="Transformations" class="dd-item ">
+        <a href="CForgeHUB/graphics_lecture/transformation/">
+        Transformations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/showcase/" title="Showcase" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/showcase/">
+          Showcase
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/how_to_contribute/" title="How to contribute" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/how_to_contribute/">
+          How to contribute
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/how_to_contribute/markdown_guide/" title="Markdown Guide" class="dd-item ">
+        <a href="CForgeHUB/how_to_contribute/markdown_guide/">
+        Markdown Guide
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/how_to_contribute/shortcodes/" title="Shortcodes" class="dd-item ">
+        <a href="CForgeHUB/how_to_contribute/shortcodes/">
+        Shortcodes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/CrossForge/CrossForge"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://www.tu-chemnitz.de/informatik/GDV/"><i class='fas fa-bookmark'></i> TU Chemnitz</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="CForgeHUB/CForgeHUB/wiki/"><i class='fas fa-bookmark'></i> About the Wiki</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='CForgeHUB/'>Introduction</a> > <a href='CForgeHUB/my_first_scene/'>Your First Scene</a> > Setting up a Scene
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents"></nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Setting up a Scene
+            </h1>
+          
+
+        
+
+
+
+
+	<p>First of all you have to understand how to build a context and set up a scene in Crossforge.</p>
+<p>We are using ExampleBaseScene as a reference to show you how it can be done:</p>
+<pre tabindex="0"><code>...\(CrossForge root folder)\Examples\exampleSceneBase.hpp
+</code></pre><hr>
+<p><strong>Crossforge uses different classes where you can set values to create a window or a scene.</strong></p>
+<ol>
+<li>We use <strong>GLWindow</strong>, which is powered by the GLFW library, to set parameters(size and title) for the active window:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">//GLWindow m_RenderWin;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_RenderWin.init(Vector2i(<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">100</span>), Vector2i(m_WinWidth, m_WinHeight), m_WindowTitle);             <span style="color:#75715e">//init(Position, Size, Title)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_RenderWin.startListening(<span style="color:#66d9ef">this</span>);                                                                   <span style="color:#75715e">//resizing for changing resolution
+</span></span></span></code></pre></div><ol start="2">
+<li>We can set up a camera with the class <strong>VirtualCamera</strong>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">//VirtualCamera m_Cam;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_Cam.init(Vector3f(<span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">3.0f</span>, <span style="color:#ae81ff">8.0f</span>), Vector3f<span style="color:#f92672">::</span>UnitY());                                          <span style="color:#75715e">//init(Position, Up-Vector)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_Cam.projectionMatrix(m_WinWidth, m_WinHeight, GraphicsUtility<span style="color:#f92672">::</span>degToRad(<span style="color:#ae81ff">45.0f</span>), <span style="color:#ae81ff">0.1f</span>, <span style="color:#ae81ff">1000.0f</span>);   
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//projectionMatrix(Viewportwidth, Viewportheight, FOV, Near, Far)
+</span></span></span></code></pre></div><p>As well as light sources with different classes. We use <strong>DirectionalLight</strong> and <strong>PointLight</strong>, but you can also use a <strong>SpotLight</strong> which are all self-explanatory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">//DirectionalLight m_Sun;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//PointLight m_BGLight;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Vector3f SunPos <span style="color:#f92672">=</span> Vector3f(<span style="color:#f92672">-</span><span style="color:#ae81ff">5.0f</span>, <span style="color:#ae81ff">15.0f</span>, <span style="color:#ae81ff">35.0f</span>);
+</span></span><span style="display:flex;"><span>Vector3f BGLightPos <span style="color:#f92672">=</span> Vector3f(<span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">5.0f</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">30.0f</span>);
+</span></span><span style="display:flex;"><span>m_Sun.init(SunPos, <span style="color:#f92672">-</span>SunPos.normalized(), Vector3f(<span style="color:#ae81ff">1.0f</span>, <span style="color:#ae81ff">1.0f</span>, <span style="color:#ae81ff">1.0f</span>), <span style="color:#ae81ff">5.0f</span>);                         <span style="color:#75715e">//init(Pos, Direction, Color, Intensity)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// sun will cast shadows
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_Sun.initShadowCasting(<span style="color:#ae81ff">1024</span>, <span style="color:#ae81ff">1024</span>, GraphicsUtility<span style="color:#f92672">::</span>orthographicProjection(<span style="color:#ae81ff">10.0f</span>, <span style="color:#ae81ff">10.0f</span>, <span style="color:#ae81ff">0.1f</span>, <span style="color:#ae81ff">1000.0f</span>));
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//initShadowCasting(ShadowMapWidth, ShadowMapHeight, Projection)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_BGLight.init(BGLightPos, <span style="color:#f92672">-</span>BGLightPos.normalized(), Vector3f(<span style="color:#ae81ff">1.0f</span>, <span style="color:#ae81ff">1.0f</span>, <span style="color:#ae81ff">1.0f</span>), <span style="color:#ae81ff">1.5f</span>, Vector3f(<span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">0.0f</span>));
+</span></span></code></pre></div><ol start="3">
+<li>The class <strong>RenderDevice</strong> handles the coordination of render requests and communication with shaders and buffer. We can set render pipeline parameters in <strong>RenderDevice::RenderDeviceConfig</strong>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">//RenderDevice m_RenderDev;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// configure and initialize rendering pipeline
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>RenderDevice<span style="color:#f92672">::</span>RenderDeviceConfig Config;
+</span></span><span style="display:flex;"><span>Config.DirectionalLightsCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>Config.PointLightsCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>Config.SpotLightsCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>Config.ExecuteLightingPass <span style="color:#f92672">=</span> true;
+</span></span><span style="display:flex;"><span>Config.GBufferWidth <span style="color:#f92672">=</span> m_WinWidth<span style="color:#f92672">/</span>m_RenderBufferScale;
+</span></span><span style="display:flex;"><span>Config.GBufferHeight <span style="color:#f92672">=</span> m_WinHeight<span style="color:#f92672">/</span>m_RenderBufferScale;	
+</span></span><span style="display:flex;"><span>Config.pAttachedWindow <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>m_RenderWin;
+</span></span><span style="display:flex;"><span>Config.PhysicallyBasedShading <span style="color:#f92672">=</span> true;
+</span></span><span style="display:flex;"><span>Config.UseGBuffer <span style="color:#f92672">=</span> true;
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>m_RenderDev.init(<span style="color:#f92672">&amp;</span>Config);
+</span></span></code></pre></div><p>and assign active camera and lights, which we set up previously:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>m_RenderDev.activeCamera(<span style="color:#f92672">&amp;</span>m_Cam);
+</span></span><span style="display:flex;"><span>m_RenderDev.addLight(<span style="color:#f92672">&amp;</span>m_Sun);
+</span></span><span style="display:flex;"><span>m_RenderDev.addLight(<span style="color:#f92672">&amp;</span>m_BGLight);
+</span></span></code></pre></div><ol start="4">
+<li>Shaders are managed by the class <strong>SShaderManager</strong>. We can set parameters to the light shader and post-processing shader with <strong>SShaderManager::configShader()</strong>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">//SShaderManager* m_pShaderMan;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_pShaderMan <span style="color:#f92672">=</span> SShaderManager<span style="color:#f92672">::</span>instance();                                                             <span style="color:#75715e">//create a new instance of a shader manager
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// configure and initialize shader configuration device
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//SShaderManager::configShader() can receive either ShaderCode::LightConfig or ShaderCode::PostProcessingConfig as argument
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>ShaderCode<span style="color:#f92672">::</span>LightConfig LC;
+</span></span><span style="display:flex;"><span>LC.DirLightCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;                                                                                  <span style="color:#75715e">//We set 1 directional
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>LC.PointLightCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;                                                                                <span style="color:#75715e">//and 1 point light
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>LC.SpotLightCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>LC.PCFSize <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>LC.ShadowBias <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.00001f</span>;
+</span></span><span style="display:flex;"><span>LC.ShadowMapCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>m_pShaderMan<span style="color:#f92672">-&gt;</span>configShader(LC);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//m_RenderDev.init(&amp;Config);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>ShaderCode<span style="color:#f92672">::</span>PostProcessingConfig PPC;
+</span></span><span style="display:flex;"><span>PPC.Exposure <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0f</span>;
+</span></span><span style="display:flex;"><span>PPC.Gamma <span style="color:#f92672">=</span> <span style="color:#ae81ff">2.2f</span>;
+</span></span><span style="display:flex;"><span>PPC.Saturation <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.1f</span>;
+</span></span><span style="display:flex;"><span>PPC.Brightness <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.05f</span>;
+</span></span><span style="display:flex;"><span>PPC.Contrast <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.05f</span>;
+</span></span><span style="display:flex;"><span>m_pShaderMan<span style="color:#f92672">-&gt;</span>configShader(PPC);
+</span></span></code></pre></div><hr>
+<p>(For more functions like updateFPS you can check out exampleSceneBase.hpp)</p>
+<p>To run the scene we of course need a main loop:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">virtual</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span>(<span style="color:#66d9ef">void</span>) {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>m_RenderWin.shutdown()) {
+</span></span><span style="display:flex;"><span>				m_RenderWin.update();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>				m_RenderWin.swapBuffers();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>				<span style="color:#75715e">//updateFPS(); -&gt; check out exampleBaseScene.hpp 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>				<span style="color:#75715e">//defaultKeyboardUpdate(m_RenderWin.keyboard()); -&gt; check out next step in My First Scene(Basic Scene)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>			}<span style="color:#75715e">//while[main loop]
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		}<span style="color:#75715e">//run
+</span></span></span></code></pre></div><p>And for closing down:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">clear</span>(<span style="color:#66d9ef">void</span>) {
+</span></span><span style="display:flex;"><span>			m_RenderWin.stopListening(<span style="color:#66d9ef">this</span>);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">nullptr</span> <span style="color:#f92672">!=</span> m_pShaderMan) m_pShaderMan<span style="color:#f92672">-&gt;</span>release();
+</span></span><span style="display:flex;"><span>			m_pShaderMan <span style="color:#f92672">=</span> <span style="color:#66d9ef">nullptr</span>;
+</span></span><span style="display:flex;"><span>		}<span style="color:#75715e">//clear
+</span></span></span></code></pre></div><p>If you activate exampleBaseScene() in SandboxMain.cpp and run CForgeSandbox.exe you will see something like this:
+<img src="/ExBaseScene.png" alt="Example Base Scene"></p>
+<p>This is of course only the window for now. With this we have the base for our scene ready. Follow the next steps to see, how we build an interactive scene with some objects!</p>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/CForgeHUB/js/clipboard.min.js?1677668510"></script>
+    <script src="/CForgeHUB/js/perfect-scrollbar.min.js?1677668510"></script>
+    <script src="/CForgeHUB/js/perfect-scrollbar.jquery.min.js?1677668510"></script>
+    <script src="/CForgeHUB/js/jquery.sticky.js?1677668510"></script>
+    <script src="/CForgeHUB/js/featherlight.min.js?1677668510"></script>
+    <script src="/CForgeHUB/js/highlight.pack.js?1677668510"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/CForgeHUB/js/modernizr.custom-3.6.0.js?1677668510"></script>
+    <script src="/CForgeHUB/js/learn.js?1677668510"></script>
+    <script src="/CForgeHUB/js/hugo-learn.js?1677668510"></script>
+    
+        
+            <script src="/CForgeHUB/mermaid/mermaid.js?1677668510"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+
+

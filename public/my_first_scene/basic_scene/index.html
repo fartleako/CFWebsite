@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.105.0">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/CForgeHUB/images/crossIcon1.png" type="image/png">
+
+    <title>Basic Scene :: CrossForge</title>
+
+    
+    <link href="/CForgeHUB/css/nucleus.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/fontawesome-all.min.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/hybrid.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/featherlight.min.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/perfect-scrollbar.min.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/auto-complete.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/atom-one-dark-reasonable.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/theme.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/tabs.css?1677668510" rel="stylesheet">
+    <link href="/CForgeHUB/css/hugo-theme.css?1677668510" rel="stylesheet">
+    
+    <link href="/CForgeHUB/css/theme-blue.css?1677668510" rel="stylesheet">
+    
+    
+
+    <script src="/CForgeHUB/js/jquery-3.3.1.min.js?1677668510"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="CForgeHUB/my_first_scene/basic_scene/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <h3><a href="http://localhost:1313/"> <img src="/CrossForgeLogo2.png" alt=""/></a></h3>
+    </div>
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/first_steps/" title="First Steps" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/first_steps/">
+          First Steps
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/first_steps/tutorial/" title="Installation" class="dd-item ">
+        <a href="CForgeHUB/first_steps/tutorial/">
+        Installation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/first_steps/firststart/" title="First Running Programm" class="dd-item ">
+        <a href="CForgeHUB/first_steps/firststart/">
+        First Running Programm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/" title="Your First Scene" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/">
+          Your First Scene
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/setting_up_scene/" title="Setting up a Scene" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/setting_up_scene/">
+          Setting up a Scene
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/my_first_scene/basic_scene/" title="Basic Scene" class="dd-item
+        
+        active
+        
+        ">
+      <a href="CForgeHUB/my_first_scene/basic_scene/">
+          Basic Scene
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/" title="Concepts" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/">
+          Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/basic/" title="Basic" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/basic/">
+          Basic
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/skybox/" title="Skybox" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/skybox/">
+        Skybox
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/multi_viewport/" title="Multi Viewport" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/multi_viewport/">
+        Multi Viewport
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/scenegraph/" title="Scenegraph" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/scenegraph/">
+        Scenegraph
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/basic/sockets/" title="Sockets" class="dd-item ">
+        <a href="CForgeHUB/concepts/basic/sockets/">
+        Sockets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/concepts/advanced/" title="Advanced" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/concepts/advanced/">
+          Advanced
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/advanced/morphing/" title="Morphing" class="dd-item ">
+        <a href="CForgeHUB/concepts/advanced/morphing/">
+        Morphing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/concepts/advanced/skeletal_animation/" title="Skeletal Animation" class="dd-item ">
+        <a href="CForgeHUB/concepts/advanced/skeletal_animation/">
+        Skeletal Animation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/graphics_lecture/" title="Graphics Lectures" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/graphics_lecture/">
+          Graphics Lectures
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/graphics_lecture/vectors/" title="Vectors" class="dd-item ">
+        <a href="CForgeHUB/graphics_lecture/vectors/">
+        Vectors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/graphics_lecture/transformation/" title="Transformations" class="dd-item ">
+        <a href="CForgeHUB/graphics_lecture/transformation/">
+        Transformations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/showcase/" title="Showcase" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/showcase/">
+          Showcase
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="CForgeHUB/how_to_contribute/" title="How to contribute" class="dd-item
+        
+        
+        
+        ">
+      <a href="CForgeHUB/how_to_contribute/">
+          How to contribute
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/how_to_contribute/markdown_guide/" title="Markdown Guide" class="dd-item ">
+        <a href="CForgeHUB/how_to_contribute/markdown_guide/">
+        Markdown Guide
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="CForgeHUB/how_to_contribute/shortcodes/" title="Shortcodes" class="dd-item ">
+        <a href="CForgeHUB/how_to_contribute/shortcodes/">
+        Shortcodes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/CrossForge/CrossForge"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://www.tu-chemnitz.de/informatik/GDV/"><i class='fas fa-bookmark'></i> TU Chemnitz</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="CForgeHUB/CForgeHUB/wiki/"><i class='fas fa-bookmark'></i> About the Wiki</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='CForgeHUB/'>Introduction</a> > <a href='CForgeHUB/my_first_scene/'>Your First Scene</a> > Basic Scene
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#loading-assets">Loading Assets</a></li>
+        <li><a href="#scene-graph">Scene Graph</a></li>
+        <li><a href="#input">Input</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Basic Scene
+            </h1>
+          
+
+        
+
+
+
+
+	<p>To create an actual visual scene, we need to place an object into the world and if we want to have an interactive dynamic scene we need to know, how to register and process inputs.</p>
+<p>We are using ExampleMinimumGraphicsSetup (which also uses ExampleBaseScene) as a reference to show you how it can be done:</p>
+<pre tabindex="0"><code>...\(CrossForge root folder)\Examples\exampleMinimumGraphicsSetup.hpp
+</code></pre><hr>
+<h3 id="loading-assets">Loading Assets</h3>
+<p>Loading assets requires the use of two classes: <strong>T3DMesh</strong> and <strong>SAssetIO</strong>. <strong>T3DMesh</strong> is used to store a triangle mesh and with that various properties. <strong>SAssetIO</strong> handles import and export of meshes and image files.</p>
+<p>We will also assign the mesh to a <strong>StaticActor</strong> which is used in the scene graph that we will look at next.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">//StaticActor m_Skydome;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//StaticActor m_Cube;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// load skydome and a textured cube
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>T3DMesh<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">float</span><span style="color:#f92672">&gt;</span> M;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>SAssetIO<span style="color:#f92672">::</span>load(<span style="color:#e6db74">&#34;Assets/ExampleScenes/SimpleSkydome.glb&#34;</span>, <span style="color:#f92672">&amp;</span>M);                   <span style="color:#75715e">//SAssetIO::load(assetpath, *object to save asset)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>setMeshShader(<span style="color:#f92672">&amp;</span>M, <span style="color:#ae81ff">0.8f</span>, <span style="color:#ae81ff">0.04f</span>);                                                 <span style="color:#75715e">//ExampleSceneBase::setMeshShader(*mesh, Roughness, Metallic)     
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//function of example base scene which sets material properties and assigns shader, optional
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>M.computePerVertexNormals();
+</span></span><span style="display:flex;"><span>m_Skydome.init(<span style="color:#f92672">&amp;</span>M);                                                             <span style="color:#75715e">//assign/save Mesh to StaticActor
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>M.clear();                                                                      <span style="color:#75715e">//clear storage to reuse
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>SAssetIO<span style="color:#f92672">::</span>load(<span style="color:#e6db74">&#34;Assets/ExampleScenes/TexturedUnitCube.gltf&#34;</span>, <span style="color:#f92672">&amp;</span>M);
+</span></span><span style="display:flex;"><span>setMeshShader(<span style="color:#f92672">&amp;</span>M, <span style="color:#ae81ff">0.1f</span>, <span style="color:#ae81ff">0.04f</span>);
+</span></span><span style="display:flex;"><span>M.computePerVertexNormals();
+</span></span><span style="display:flex;"><span>m_Cube.init(<span style="color:#f92672">&amp;</span>M);
+</span></span><span style="display:flex;"><span>M.clear();
+</span></span></code></pre></div><p>This example uses a white skydome as a skybox by loading it as a mesh. To add an actual Skybox, you can check out the concept <a href="/concepts/basic/skybox/">here</a>.</p>
+<h3 id="scene-graph">Scene Graph</h3>
+<p>In Crossforge the scene is stored as a scene graph consisting of the base class <strong>SceneGraph</strong> and the node interface <strong>ISceneGraphNode</strong> which is represented by the node types <strong>SGNGeometry</strong> and <strong>SGNTransformation</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">//SceneGraph m_SG; (declared in ExampleBaseScene)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//SGNTransformation m_RootSGN;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//SGNGeometry m_SkydomeSGN;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//SGNGeometry m_CubeSGN;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//SGNTransformation m_CubeTransformSGN;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// build scene graph
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_RootSGN.init(<span style="color:#66d9ef">nullptr</span>);                                                        
+</span></span><span style="display:flex;"><span>m_SG.init(<span style="color:#f92672">&amp;</span>m_RootSGN);                                                          <span style="color:#75715e">//initialize the scene graph with the root
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//could add transformations for the whole scene
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// add skydome
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_SkydomeSGN.init(<span style="color:#f92672">&amp;</span>m_RootSGN, <span style="color:#f92672">&amp;</span>m_Skydome);                                      
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//SGNGeometry::init can receive multiple arguments, it will always need the parent node (or nullptr if it is the root)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//and in this case we assign the StaticActor to the geometry, rest will be set to default
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_SkydomeSGN.scale(Vector3f(<span style="color:#ae81ff">50.0f</span>, <span style="color:#ae81ff">50.0f</span>, <span style="color:#ae81ff">50.0f</span>));                              <span style="color:#75715e">//and scale it
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// add cube
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_CubeTransformSGN.init(<span style="color:#f92672">&amp;</span>m_RootSGN, Vector3f(<span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">3.0f</span>, <span style="color:#ae81ff">0.0f</span>));                <span style="color:#75715e">//transform node
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//here we pass only 1 Vector in addition to the parent node to SGNTransformation::init, which sets the translation value
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_CubeSGN.init(<span style="color:#f92672">&amp;</span>m_CubeTransformSGN, <span style="color:#f92672">&amp;</span>m_Cube);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//similar to skydome, but we assign the transform node as parent so transformation applies
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_CubeSGN.scale(Vector3f(<span style="color:#ae81ff">3.0f</span>, <span style="color:#ae81ff">3.0f</span>, <span style="color:#ae81ff">3.0f</span>));
+</span></span></code></pre></div><p>We can also animate the scene with the scene graph by setting transformation values as delta:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// rotate about the y-axis at 45 degree every second
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Quaternionf R;                                                                  
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//quaternion as  representation of orientations and rotations
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>R <span style="color:#f92672">=</span> AngleAxisf(GraphicsUtility<span style="color:#f92672">::</span>degToRad(<span style="color:#ae81ff">45.0f</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">60.0f</span>), Vector3f<span style="color:#f92672">::</span>UnitY());    <span style="color:#75715e">//get quaternion for rotation around Y axis
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>m_CubeTransformSGN.rotationDelta(R);                                            
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//set rotationDelta which will apply rotation regularly through SceneGraph::Update()
+</span></span></span></code></pre></div><h3 id="input">Input</h3>
+<p>The classes <strong>Keyboard</strong> and <strong>Mouse</strong> represent as the name indicates your basic input devices. They are part of the window and have all the standard keys and actions listed, while constantly checking their state which is received from the system automatically. Through the functions <strong>Keyboard::keyPressed(Key)</strong> and <strong>Mouse::buttonState(Button)</strong> you can check if the Key/Button is pressed.</p>
+<p>First we write a function for camera movement:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">defaultCameraUpdate</span>(VirtualCamera<span style="color:#f92672">*</span> pCamera, Keyboard<span style="color:#f92672">*</span> pKeyboard, Mouse<span style="color:#f92672">*</span> pMouse, <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">float</span> MovementSpeed <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.4f</span>, <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">float</span> RotationSpeed <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0f</span>, <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">float</span> SpeedScale <span style="color:#f92672">=</span> <span style="color:#ae81ff">4.0f</span>) {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">nullptr</span> <span style="color:#f92672">==</span> pCamera) <span style="color:#66d9ef">throw</span> NullpointerExcept(<span style="color:#e6db74">&#34;pCamera&#34;</span>);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">nullptr</span> <span style="color:#f92672">==</span> pKeyboard) <span style="color:#66d9ef">throw</span> NullpointerExcept(<span style="color:#e6db74">&#34;pKeyboard&#34;</span>);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">nullptr</span> <span style="color:#f92672">==</span> pMouse) <span style="color:#66d9ef">throw</span> NullpointerExcept(<span style="color:#e6db74">&#34;pMouse&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">float</span> S <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0f</span>;
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (pKeyboard<span style="color:#f92672">-&gt;</span>keyPressed(Keyboard<span style="color:#f92672">::</span>KEY_LEFT_SHIFT)) S <span style="color:#f92672">=</span> SpeedScale;
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">//pressing left shift will apply a scale for faster movement
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (pKeyboard<span style="color:#f92672">-&gt;</span>keyPressed(Keyboard<span style="color:#f92672">::</span>KEY_W)) pCamera<span style="color:#f92672">-&gt;</span>forward(S <span style="color:#f92672">*</span> MovementSpeed);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (pKeyboard<span style="color:#f92672">-&gt;</span>keyPressed(Keyboard<span style="color:#f92672">::</span>KEY_S)) pCamera<span style="color:#f92672">-&gt;</span>forward(S <span style="color:#f92672">*</span> <span style="color:#f92672">-</span>MovementSpeed);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (pKeyboard<span style="color:#f92672">-&gt;</span>keyPressed(Keyboard<span style="color:#f92672">::</span>KEY_A)) pCamera<span style="color:#f92672">-&gt;</span>right(<span style="color:#f92672">-</span>S <span style="color:#f92672">*</span> MovementSpeed);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (pKeyboard<span style="color:#f92672">-&gt;</span>keyPressed(Keyboard<span style="color:#f92672">::</span>KEY_D)) pCamera<span style="color:#f92672">-&gt;</span>right(S <span style="color:#f92672">*</span> MovementSpeed);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">//WASD keys for camera movement, using VirtualCamera&#39;s integrated movement functions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (pMouse<span style="color:#f92672">-&gt;</span>buttonState(Mouse<span style="color:#f92672">::</span>BTN_RIGHT)) {                           <span style="color:#75715e">//when right mouse button is pressed(hold)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>				<span style="color:#66d9ef">const</span> Eigen<span style="color:#f92672">::</span>Vector2f MouseDelta <span style="color:#f92672">=</span> pMouse<span style="color:#f92672">-&gt;</span>movement();             <span style="color:#75715e">//track mouse movement
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>				pCamera<span style="color:#f92672">-&gt;</span>rotY(GraphicsUtility<span style="color:#f92672">::</span>degToRad(<span style="color:#f92672">-</span><span style="color:#ae81ff">0.1f</span> <span style="color:#f92672">*</span> RotationSpeed <span style="color:#f92672">*</span> MouseDelta.x()));
+</span></span><span style="display:flex;"><span>				pCamera<span style="color:#f92672">-&gt;</span>pitch(GraphicsUtility<span style="color:#f92672">::</span>degToRad(<span style="color:#f92672">-</span><span style="color:#ae81ff">0.1f</span> <span style="color:#f92672">*</span> RotationSpeed <span style="color:#f92672">*</span> MouseDelta.y()));
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">//tilt camera according to mouse movement
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>				pMouse<span style="color:#f92672">-&gt;</span>movement(Eigen<span style="color:#f92672">::</span>Vector2f<span style="color:#f92672">::</span>Zero());                         <span style="color:#75715e">//reset movement so further movement is not added in next cycle
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			}
+</span></span><span style="display:flex;"><span>		}<span style="color:#75715e">//defaultCameraUpdate
+</span></span></span></code></pre></div><p>Next we want to set some functional inputs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">defaultKeyboardUpdate</span>(Keyboard<span style="color:#f92672">*</span> pKeyboard) {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">nullptr</span> <span style="color:#f92672">==</span> pKeyboard) <span style="color:#66d9ef">throw</span> NullpointerExcept(<span style="color:#e6db74">&#34;pKeyboard&#34;</span>);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (pKeyboard<span style="color:#f92672">-&gt;</span>keyPressed(Keyboard<span style="color:#f92672">::</span>KEY_F9, true)) {
+</span></span><span style="display:flex;"><span>				m_RenderWin.vsync(<span style="color:#f92672">!</span>m_RenderWin.vsync());                           <span style="color:#75715e">//toggle VSync when pressing F9
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			}
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (m_RenderWin.keyboard()<span style="color:#f92672">-&gt;</span>keyPressed(Keyboard<span style="color:#f92672">::</span>KEY_F10, true)) {
+</span></span><span style="display:flex;"><span>				m_RenderDev.activePass(RenderDevice<span style="color:#f92672">::</span>RENDERPASS_FORWARD);
+</span></span><span style="display:flex;"><span>				std<span style="color:#f92672">::</span>string ScreenshotURI <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Screenshot_&#34;</span> <span style="color:#f92672">+</span> std<span style="color:#f92672">::</span>to_string(m_ScreenshotCount<span style="color:#f92672">++</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;.webp&#34;</span>;
+</span></span><span style="display:flex;"><span>				takeScreenshot(ScreenshotURI);                                     <span style="color:#75715e">//take screenshot when pressing F10
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (pKeyboard<span style="color:#f92672">-&gt;</span>keyPressed(Keyboard<span style="color:#f92672">::</span>KEY_ESCAPE)) {                     <span style="color:#75715e">//close Window on Esc
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>				m_RenderWin.closeWindow();                                         <span style="color:#75715e">//m_RenderWin.shutdown()=true
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			}
+</span></span><span style="display:flex;"><span>		}<span style="color:#75715e">//defaultKeyboardUpdate
+</span></span></span></code></pre></div><hr>
+<p>To see our changes we have to add some update functions to our main loop:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span>(<span style="color:#66d9ef">void</span>) {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>m_RenderWin.shutdown()) {
+</span></span><span style="display:flex;"><span>				m_RenderWin.update();
+</span></span><span style="display:flex;"><span>				m_SG.update(<span style="color:#ae81ff">60.0f</span> <span style="color:#f92672">/</span> m_FPS);                                         <span style="color:#75715e">//update the scene graph(with 60 fps)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>				defaultCameraUpdate(<span style="color:#f92672">&amp;</span>m_Cam, m_RenderWin.keyboard(), m_RenderWin.mouse());
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">//camera update function
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>				m_RenderDev.activePass(RenderDevice<span style="color:#f92672">::</span>RENDERPASS_SHADOW, <span style="color:#f92672">&amp;</span>m_Sun);
+</span></span><span style="display:flex;"><span>				m_SG.render(<span style="color:#f92672">&amp;</span>m_RenderDev);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>				m_RenderDev.activePass(RenderDevice<span style="color:#f92672">::</span>RENDERPASS_GEOMETRY);
+</span></span><span style="display:flex;"><span>				m_SG.render(<span style="color:#f92672">&amp;</span>m_RenderDev);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>				m_RenderDev.activePass(RenderDevice<span style="color:#f92672">::</span>RENDERPASS_LIGHTING);
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">//render the scene graph through the different render passes
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>				m_RenderWin.swapBuffers();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>				<span style="color:#75715e">//updateFPS();
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>				defaultKeyboardUpdate(m_RenderWin.keyboard());                      <span style="color:#75715e">//keyboard update function
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>			}<span style="color:#75715e">//while[main loop]
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		}<span style="color:#75715e">//run
+</span></span></span></code></pre></div><p>If you run the program (or activate ExampleMinimumGraphicsSetup(); in SandboxMain.cpp and start CForgeSandbox.exe) you will see this scene:</p>
+<p><img src="/exampleMinimumGraphicsSetup.gif" alt="exampleMinimumGraphicsSetup"></p>
+<p>Congratulations! You&rsquo;ve created your first scene with Crossforge!</p>
+<p>Now you can play a bit with the scene, maybe use different assets, or you continue going through the tutorials and get to know more specific concepts you can use to improve your scene!</p>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/CForgeHUB/js/clipboard.min.js?1677668510"></script>
+    <script src="/CForgeHUB/js/perfect-scrollbar.min.js?1677668510"></script>
+    <script src="/CForgeHUB/js/perfect-scrollbar.jquery.min.js?1677668510"></script>
+    <script src="/CForgeHUB/js/jquery.sticky.js?1677668510"></script>
+    <script src="/CForgeHUB/js/featherlight.min.js?1677668510"></script>
+    <script src="/CForgeHUB/js/highlight.pack.js?1677668510"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/CForgeHUB/js/modernizr.custom-3.6.0.js?1677668510"></script>
+    <script src="/CForgeHUB/js/learn.js?1677668510"></script>
+    <script src="/CForgeHUB/js/hugo-learn.js?1677668510"></script>
+    
+        
+            <script src="/CForgeHUB/mermaid/mermaid.js?1677668510"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+
+

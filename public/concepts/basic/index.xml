@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic on CrossForge</title>
+    <link>CForgeHUB/concepts/basic/</link>
+    <description>Recent content in Basic on CrossForge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Nov 2022 14:41:46 +0100</lastBuildDate><atom:link href="CForgeHUB/concepts/basic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skybox</title>
+      <link>CForgeHUB/concepts/basic/skybox/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:55 +0100</pubDate>
+      
+      <guid>CForgeHUB/concepts/basic/skybox/</guid>
+      <description>When creating seemingly endless worlds, one way of achieving this feeling is by using a concept called Skybox. In short a Skybox is either a cube or a sphere, so called skydome, that surrounds the world. The sky and other unreachable objects are projected onto the inner faces.
+We use the SkyboxActor class when handling with skyboxes.
+SkyboxActor m_Skybox; First we need to initialize the 6 Sides of the Cube. We use here the clear sky version as an example.</description>
+    </item>
+    
+    <item>
+      <title>Multi Viewport</title>
+      <link>CForgeHUB/concepts/basic/multi_viewport/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:39 +0100</pubDate>
+      
+      <guid>CForgeHUB/concepts/basic/multi_viewport/</guid>
+      <description>When viewing your creations, normally one viewport is all you need, but if needed Crossforge also supports multiple Viewports. Mainly there two ways of achieving multiple Viewports, the first way is by using one scenegraph and multiple virtual cameras, the second way is by using multiple scenegraphs with one camera setup.
+1) Multiple scenegraphs
+First off we begin with the way of using multiple scenegraphs, but why would you want to use this way?</description>
+    </item>
+    
+    <item>
+      <title>Scenegraph</title>
+      <link>CForgeHUB/concepts/basic/scenegraph/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:39 +0100</pubDate>
+      
+      <guid>CForgeHUB/concepts/basic/scenegraph/</guid>
+      <description>A scenegraph is a data structur which allows inheritance of data manipulation (for instance rotation, scaling or transformation). It is often used in frameworks and engines to easily display objects. For example you can &amp;ldquo;connect&amp;rdquo; the tires with the rest a car. Therefore you can scale the tires diffently then the chassies. In this manner you can build your hole scene - thats why it is called scenegraph. Before we can connect models via a scenegraph, we have to create the root of the scenegraph itself - we can do that via a SGNTransformation-Node.</description>
+    </item>
+    
+    <item>
+      <title>Sockets</title>
+      <link>CForgeHUB/concepts/basic/sockets/</link>
+      <pubDate>Sun, 20 Nov 2022 12:01:37 +0100</pubDate>
+      
+      <guid>CForgeHUB/concepts/basic/sockets/</guid>
+      <description>If you want to send or receive data through an network, one way of achieving this is by using a Concept called Sockets. In short sockets function as an endpoint of a local network.
+For that we use UDP and TCP
+UDP TCP UDP uses ports to allocate data to the correct program, so it is connectionless TCP establishes a connection between two end points of a network connection (sockets) Lets see the basics of how to setup sockets.</description>
+    </item>
+    
+  </channel>
+</rss>

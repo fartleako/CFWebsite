@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First Steps on CrossForge</title>
+    <link>CForgeHUB/first_steps/</link>
+    <description>Recent content in First Steps on CrossForge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Nov 2022 11:31:47 +0100</lastBuildDate><atom:link href="CForgeHUB/first_steps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>CForgeHUB/first_steps/tutorial/</link>
+      <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
+      
+      <guid>CForgeHUB/first_steps/tutorial/</guid>
+      <description>Windows 1) Installation First you have to download the Crossforge repository from GitHub. You can do this either through cloning or just downloading the according files. 2) Visual Studio: The prefered way to compile Crossforge under Windows is with the help of Visual Studio (A guide to install Visual Studio can be found here).
+Due to the fact the Crossforge uses CMake and not the native Visual Studio Solutions, you need to update your Visual Studio installer (Here you can find more about CMake).</description>
+    </item>
+    
+    <item>
+      <title>First Running Programm</title>
+      <link>CForgeHUB/first_steps/firststart/</link>
+      <pubDate>Fri, 02 Dec 2022 19:18:40 +0100</pubDate>
+      
+      <guid>CForgeHUB/first_steps/firststart/</guid>
+      <description>Here we want to show you how you can start Crossforge and display your first programm. If you have not installed the framework and the dependencies, now is a good time to do so. First things first you have to open Crossforge. As you can see it is opened on a Windows machine, therefore Visual Studio is getting used. Navigate to the folder (not to the CMake file!). Click on it and then click on &amp;ldquo;choose folder&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
