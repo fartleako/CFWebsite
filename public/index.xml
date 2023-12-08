@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on CrossForge</title>
-    <link>https://fartleako.github.io/</link>
+    <link>https://fartleako.github.io/CFWebsite/</link>
     <description>Recent content in Introduction on CrossForge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Nov 2022 21:49:43 +0100</lastBuildDate><atom:link href="https://fartleako.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Nov 2022 21:49:43 +0100</lastBuildDate><atom:link href="https://fartleako.github.io/CFWebsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Skybox</title>
-      <link>https://fartleako.github.io/graphics_lectures/fun_with_textures/skybox/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/skybox/</link>
       <pubDate>Sun, 20 Nov 2022 12:00:55 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/fun_with_textures/skybox/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/skybox/</guid>
       <description>When creating seemingly endless worlds, one way of achieving this feeling is by using a concept called Skybox. In short a Skybox is either a cube or a sphere, so called skydome, that surrounds the world. The sky and other unreachable objects are projected onto the inner faces.
 We use the SkyboxActor class when handling with skyboxes.
 SkyboxActor m_Skybox; First we need to load textures for the 6 faces of the Cube.</description>
@@ -20,20 +20,20 @@ SkyboxActor m_Skybox; First we need to load textures for the 6 faces of the Cube
     
     <item>
       <title>Checkpoint Race</title>
-      <link>https://fartleako.github.io/showcase/checkpoin_race/</link>
+      <link>https://fartleako.github.io/CFWebsite/showcase/checkpoin_race/</link>
       <pubDate>Mon, 07 Nov 2022 18:07:37 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/showcase/checkpoin_race/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/showcase/checkpoin_race/</guid>
       <description>The Idea Imagine you were a bird soaring through the world, effortlessly flapping your wings or diving with remarkable speed. We wanted to create a small game from this idea. But before we could work on the realisation of the game, we had to think about a few things.
 We needed a goal for the small game itself. We wanted to show the manoeuvrability of a birds by constructing a parkour.</description>
     </item>
     
     <item>
       <title>Handling Input</title>
-      <link>https://fartleako.github.io/advanced_concepts/input/</link>
+      <link>https://fartleako.github.io/CFWebsite/advanced_concepts/input/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/advanced_concepts/input/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/advanced_concepts/input/</guid>
       <description>The classes Keyboard and Mouse represent - as the names indicate - your basic input devices. They are part of the window and have all the standard keys and actions listed, while constantly checking their state which is received from the system automatically. Through the functions Keyboard::keyPressed(Key) and Mouse::buttonState(Button) you can check if the Key/Button is pressed.
 You can use it like this:
 //GLWindow pRenderWin; if (pRenderWin.keyboard()-&amp;gt;keyPressed(Keyboard::KEY_F9, true)) { function.toggle(); //just an example } The second argument is reset: setting it true will only let you toggle a function while being set to false (by default) you can also hold the key, which can be used for movement keys for example.</description>
@@ -41,29 +41,29 @@ You can use it like this:
     
     <item>
       <title>Dear ImGUI</title>
-      <link>https://fartleako.github.io/graphics_lectures/graphical_user_interface/dear_imgui/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/graphical_user_interface/dear_imgui/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/graphical_user_interface/dear_imgui/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/graphical_user_interface/dear_imgui/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Installation</title>
-      <link>https://fartleako.github.io/basic_concepts/getting_started/</link>
+      <link>https://fartleako.github.io/CFWebsite/basic_concepts/getting_started/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/basic_concepts/getting_started/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/getting_started/</guid>
       <description>Basic Setup The following steps have to be performed, no matter what OS you are running.
 If you haven&amp;rsquo;t done already, install git https://git-scm.com/book/en/v2/Getting-Started-Installing-Git and clone this repository with git clone https://github.com/Tachikoma87/CrossForge.git CrossForge relies on vcpkg as package manager on Windows and Linux https://github.com/microsoft/vcpkg. Follow the installation instructions for your system: https://github.com/microsoft/vcpkg#getting-started Windows The prefered way to compile Crossforge under Windows is with the help of Visual Studio (A guide to install Visual Studio can be found here).</description>
     </item>
     
     <item>
       <title>Markdown Guide</title>
-      <link>https://fartleako.github.io/how_to_contribute/markdown_guide/</link>
+      <link>https://fartleako.github.io/CFWebsite/how_to_contribute/markdown_guide/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/how_to_contribute/markdown_guide/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/how_to_contribute/markdown_guide/</guid>
       <description>Hugo uses markdown files. For this reason it is quite easy to fill the website with knowledge. The markdown guide should help you to get quickly into the file format. Below we have also listed the most usefull markdown syntax which we have used to create this site.
 Create links To an external site A plain link This is quite easy. Either way you just paste the url: https://github.com/CrossForge/CrossForge.
 In code this looks like this:</description>
@@ -71,57 +71,57 @@ In code this looks like this:</description>
     
     <item>
       <title>Normal and Displacement Mapping</title>
-      <link>https://fartleako.github.io/graphics_lectures/fun_with_textures/normal_displacement_mapping/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/normal_displacement_mapping/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/fun_with_textures/normal_displacement_mapping/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/fun_with_textures/normal_displacement_mapping/</guid>
       <description>Normal and displacement mapping are techniques used in 3D computer graphics to add detail and realism to surfaces without actually increasing the number of polygons in the model. These techniques are widely used in video games and visual effects to create more realistic and detailed objects and environments. Normal Mapping Normal mapping is a technique used to simulate the appearance of bumps and crevices on the surface of a model without actually changing its shape.</description>
     </item>
     
     <item>
       <title>Physically Based Shading</title>
-      <link>https://fartleako.github.io/graphics_lectures/lighting/pbr/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/pbr/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/lighting/pbr/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/pbr/</guid>
       <description>Physically based shading (PBS) is a rendering technique used in computer graphics to create realistic materials and lighting in 3D scenes. Unlike traditional rendering techniques, which rely on ad hoc methods to simulate lighting and material properties, physically based shading is based on the laws of physics and provides a more accurate and consistent way to render objects. Principles of Physically Based Shading At the heart of physically based shading is the idea that light interacts with surfaces in a physically accurate way.</description>
     </item>
     
     <item>
       <title>Solarsystem 1</title>
-      <link>https://fartleako.github.io/graphics_lectures/moving_objects/transformation/example/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/transformation/example/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/moving_objects/transformation/example/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/transformation/example/</guid>
       <description>The task is to create a basic version of our solarsystem with simple transformations. In Crossforge we mainly use scene graphs to render a scene, therefore the application of affine transformations is also handled by that. In this example, we will not use transformation nodes to atleast show that it can be done alternatively with simple transformation, by multiplicating a transformation matrix with the position vector of the object. It is obviously more complicated to apply transformations to objects than to points, as different transformations have to be applied in different spaces, for example we have to scale the position vector of all vertices or rotate the vertices around the axis in the object space while translation (and for example orbiting) can be applied to the origin(also orientation) of the object in the world space.</description>
     </item>
     
     <item>
       <title>Multi Viewport</title>
-      <link>https://fartleako.github.io/advanced_concepts/multi_viewport/</link>
+      <link>https://fartleako.github.io/CFWebsite/advanced_concepts/multi_viewport/</link>
       <pubDate>Sun, 20 Nov 2022 12:00:39 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/advanced_concepts/multi_viewport/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/advanced_concepts/multi_viewport/</guid>
       <description>When viewing your creations, normally one viewport is all you need, but if needed Crossforge also supports multiple Viewports. Mainly there are two ways of achieving multiple Viewports, the first way is by using one scenegraph and multiple virtual cameras, the second way is by using multiple scenegraphs with one camera setup.
 1) Multiple scenegraphs First off we begin with the way of using multiple scenegraphs, but why would you want to use this way?</description>
     </item>
     
     <item>
       <title>Solarsystem 2</title>
-      <link>https://fartleako.github.io/graphics_lectures/moving_objects/scenegraph/example/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/scenegraph/example/</link>
       <pubDate>Sun, 20 Nov 2022 12:00:39 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/moving_objects/scenegraph/example/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/scenegraph/example/</guid>
       <description>This time we will only use the scene graph to render our solarsystem and add some details: we add the moon and let it orbit around the earth and on top of orbiting we add rotation around their own axis to all the planets. Add the moon:
 T3DMesh&amp;lt;float&amp;gt; M; //StaticActor m_Moon SAssetIO::load(&amp;#34;Assets/ExampleScenes/Solar/moon/scene.gltf&amp;#34;, &amp;amp;M); setMeshShader(&amp;amp;M, 0.4f, 0.02f); M.computePerVertexNormals(); m_Moon.init(&amp;amp;M); M.clear(); Now to the changed scene graph: we will add Transformation Nodes for every planet.</description>
     </item>
     
     <item>
       <title>Morphing</title>
-      <link>https://fartleako.github.io/graphics_lectures/animations/morphing/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/animations/morphing/</link>
       <pubDate>Sun, 20 Nov 2022 12:00:08 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/animations/morphing/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/animations/morphing/</guid>
       <description>Automatically transforming a form/model to another through a seamless transition by geometric interpolation is called Morphing. There are various applications for this, the most typical ones are face animations, creating variations or combinations and some other simple animations. With Examples/exampleMorphTargetAnimation.hpp we will show you how Crossforge implements Morphing with face animations.
 The basis of the Morph Target Animation consists of two classes: MorphTargetActor and MorphTargetAnimationController
 MorphTargetActor m_Face; MorphTargetAnimationController m_MTController; For this to work we first need a base model, which is a male face.</description>
@@ -129,10 +129,10 @@ MorphTargetActor m_Face; MorphTargetAnimationController m_MTController; For this
     
     <item>
       <title>Flappy Bird Reimagined</title>
-      <link>https://fartleako.github.io/showcase/flappy_bird_reimagined/</link>
+      <link>https://fartleako.github.io/CFWebsite/showcase/flappy_bird_reimagined/</link>
       <pubDate>Mon, 07 Nov 2022 18:07:37 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/showcase/flappy_bird_reimagined/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/showcase/flappy_bird_reimagined/</guid>
       <description>What is Flappy Bird Reimagined? With the original hit Flappy Bird as inspiration, we have used the Crossforge engine to bring Flappy Bird into 3 dimensions, our protagonist in this case is a hummingbird who maneuvers his way through the endless rows of buildings.
 How it was made In the following sections, we will briefly introduce the parts that make up Flappy Bird Reimagined
 Our &amp;ldquo;protagonist&amp;rdquo; / actor For our main character, we used a hummingbird model from Sketchfab with pre-made animations that we customized and tailored to our needs.</description>
@@ -140,10 +140,10 @@ Our &amp;ldquo;protagonist&amp;rdquo; / actor For our main character, we used a 
     
     <item>
       <title>Map-Builder Prototype</title>
-      <link>https://fartleako.github.io/showcase/mapbuilder/</link>
+      <link>https://fartleako.github.io/CFWebsite/showcase/mapbuilder/</link>
       <pubDate>Mon, 07 Nov 2022 18:07:37 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/showcase/mapbuilder/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/showcase/mapbuilder/</guid>
       <description>Why a mapbuilder? During the creation of the Checkpoin Race , we wanted to try and create a map builder that would allow you to create and play new maps. We were only able to develop a simple prototype, but we still wanted to show how we did it.
 Our approach When starting out, we decided to use a grid-based builder to keep the overall structure simple.
 Our aim is to highlight the specific functions we have implemented, starting with the creation of the grid</description>
@@ -151,50 +151,48 @@ Our aim is to highlight the specific functions we have implemented, starting wit
     
     <item>
       <title>Basic Program Structure</title>
-      <link>https://fartleako.github.io/basic_concepts/basic_structure/</link>
+      <link>https://fartleako.github.io/CFWebsite/basic_concepts/basic_structure/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/basic_concepts/basic_structure/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/basic_structure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Light Sources</title>
-      <link>https://fartleako.github.io/graphics_lectures/lighting/light_sources/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/light_sources/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/lighting/light_sources/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/light_sources/</guid>
       <description>Light sources are an important aspect of computer graphics as they play a crucial role in creating a realistic scene. In this chapter, we will discuss the basics of implementing light sources in C++ to place them in a scene. Types of Light Sources There are several types of light sources that can be used in computer graphics, each with their own properties and characteristics. The most common types of light sources include:</description>
     </item>
     
     <item>
       <title>Shortcodes</title>
-      <link>https://fartleako.github.io/how_to_contribute/shortcodes/</link>
+      <link>https://fartleako.github.io/CFWebsite/how_to_contribute/shortcodes/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/how_to_contribute/shortcodes/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/how_to_contribute/shortcodes/</guid>
       <description>You may have noticed that some syntax can not be displayed via markdown (like equations). In the template some shortcodes are implemented to display notice boxes, mermaids (i.e. diagramms) and equations. Notice To emphasize certain facts, it is possible to use notice. These are special shortcodes which can be implemented quite easily.
 This is a notice box
-{{% notice note %}}
-This is a notice box
-{{% /notice %}} There are also info, tip and warning boxes.</description>
+{{% notice note %}}This is a notice box{{% /notice %}} There are also info, tip and warning boxes.</description>
     </item>
     
     <item>
       <title>Text Rendering</title>
-      <link>https://fartleako.github.io/graphics_lectures/graphical_user_interface/text_rendering/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/graphical_user_interface/text_rendering/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/graphical_user_interface/text_rendering/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/graphical_user_interface/text_rendering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About This Site</title>
-      <link>https://fartleako.github.io/how_to_contribute/about_this_site/</link>
+      <link>https://fartleako.github.io/CFWebsite/how_to_contribute/about_this_site/</link>
       <pubDate>Tue, 01 Nov 2022 21:55:50 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/how_to_contribute/about_this_site/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/how_to_contribute/about_this_site/</guid>
       <description>This site was created with Hugo. Hugo is a framework with the aim create very fast static websites. It is written in Go(Golang). Furthermore it is open-source and pretty easy to use.
 With Hugo, you have the choice of choosing a theme for your website. There are many themes - we are currently using a theme called &amp;ldquo;Hugo Learn Theme.&amp;rdquo; You can find it here.
 Due to the fact that the documentation of the theme uses the toml file format and we want to use yaml, th</description>
@@ -202,55 +200,55 @@ Due to the fact that the documentation of the theme uses the toml file format an
     
     <item>
       <title>Graphics Pipeline Structure</title>
-      <link>https://fartleako.github.io/basic_concepts/graphics_pipeline/</link>
+      <link>https://fartleako.github.io/CFWebsite/basic_concepts/graphics_pipeline/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/basic_concepts/graphics_pipeline/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/graphics_pipeline/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PBS Material System</title>
-      <link>https://fartleako.github.io/advanced_concepts/material_system/</link>
+      <link>https://fartleako.github.io/CFWebsite/advanced_concepts/material_system/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/advanced_concepts/material_system/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/advanced_concepts/material_system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Casting Shadows</title>
-      <link>https://fartleako.github.io/graphics_lectures/lighting/shadows/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/shadows/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/lighting/shadows/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/shadows/</guid>
       <description>Casting shadows is an important aspect of 3D computer graphics that helps to create a sense of depth and realism in a scene. Shadows are created when an object blocks the path of light from a light source to a surface, and can be used to create a sense of depth, shape, and form in a scene. Types of Shadows There are several types of shadows that can be created in a 3D scene, including:</description>
     </item>
     
     <item>
       <title>Virtual Camera</title>
-      <link>https://fartleako.github.io/graphics_lectures/moving_objects/virtual_camera/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/virtual_camera/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/moving_objects/virtual_camera/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/virtual_camera/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Skeletal Animation</title>
-      <link>https://fartleako.github.io/graphics_lectures/animations/skeletal_animation/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/animations/skeletal_animation/</link>
       <pubDate>Sun, 20 Nov 2022 12:01:15 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/animations/skeletal_animation/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/animations/skeletal_animation/</guid>
       <description>Skeletal Animation, also called rigging, is appliable when an object consists of two parts: a surface and jointed, but individually rigid bodies called bones. The entirety of these bones is called a skeleton hence skeletal animation. Given the nature of these bones they can be animated seperately while still influencing other bones in their position and/or orientation, which is why the skeleton can also be seen as a hierarchy/tree, since transformation in a higher node/bone will also apply to the child nodes/bones.</description>
     </item>
     
     <item>
       <title>Licenses</title>
-      <link>https://fartleako.github.io/showcase/licenses_showcases/</link>
+      <link>https://fartleako.github.io/CFWebsite/showcase/licenses_showcases/</link>
       <pubDate>Mon, 07 Nov 2022 18:07:37 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/showcase/licenses_showcases/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/showcase/licenses_showcases/</guid>
       <description>Checkpoint Race Actor (Eagle) This work is based on &amp;ldquo;White Eagle Animation Fast Fly&amp;rdquo; (https://sketchfab.com/3d-models/white-eagle-animation-fast-fly-30203bf39e5145f19c79e83c550139d3) by GremorySaiyan (https://sketchfab.com/GremorySaiyan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/) (edited and animated by hand)
 Buildings used Tall Light Building This work is based on &amp;ldquo;Building 06&amp;rdquo; (https://sketchfab.com/3d-models/building-06-162a09fdfe7a4accb69bedb04b633e7f) by Shalmon (https://sketchfab.com/nashalanandas) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Tall Grey Building This work is based on &amp;ldquo;Building 07&amp;rdquo; (https://sketchfab.com/3d-models/building-07-e1f85752415047e986a7e60d3789886f) by Shalmon (https://sketchfab.com/nashalanandas) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
@@ -259,56 +257,56 @@ Small Red Building This work is based on &amp;ldquo;Building 08&amp;rdquo; (http
     
     <item>
       <title>Loading and Storing Assets</title>
-      <link>https://fartleako.github.io/basic_concepts/using_assets/</link>
+      <link>https://fartleako.github.io/CFWebsite/basic_concepts/using_assets/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/basic_concepts/using_assets/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/using_assets/</guid>
       <description>To handle import and export of meshes or image files - Assets - CrossForge implements the class SAssetIO. To load an Asset, simply use the load function in combination with the class T3DMesh or T2DImage depending on the asset to store it:
 T3DMesh&amp;lt;float&amp;gt; M; T2DImage&amp;lt;uint8_t&amp;gt; I; SAssetIO::load(&amp;#34;Assets/path/mesh.meshformat&amp;#34;, &amp;amp;M); SAssetIO::load(&amp;#34;Assets/path/image.imageformat&amp;#34;, &amp;amp;I); </description>
     </item>
     
     <item>
       <title>Shader System</title>
-      <link>https://fartleako.github.io/advanced_concepts/shader/</link>
+      <link>https://fartleako.github.io/CFWebsite/advanced_concepts/shader/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/advanced_concepts/shader/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/advanced_concepts/shader/</guid>
       <description></description>
     </item>
     
     <item>
       <title>View Frustum Culling</title>
-      <link>https://fartleako.github.io/graphics_lectures/moving_objects/frustum_culling/</link>
+      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/frustum_culling/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/graphics_lectures/moving_objects/frustum_culling/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/moving_objects/frustum_culling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Callback System</title>
-      <link>https://fartleako.github.io/advanced_concepts/callback_system/</link>
+      <link>https://fartleako.github.io/CFWebsite/advanced_concepts/callback_system/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/advanced_concepts/callback_system/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/advanced_concepts/callback_system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Putting it all together</title>
-      <link>https://fartleako.github.io/basic_concepts/putting_it_all_together/</link>
+      <link>https://fartleako.github.io/CFWebsite/basic_concepts/putting_it_all_together/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/basic_concepts/putting_it_all_together/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/putting_it_all_together/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sockets</title>
-      <link>https://fartleako.github.io/advanced_concepts/sockets/</link>
+      <link>https://fartleako.github.io/CFWebsite/advanced_concepts/sockets/</link>
       <pubDate>Sun, 20 Nov 2022 12:01:37 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/advanced_concepts/sockets/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/advanced_concepts/sockets/</guid>
       <description>If you want to send or receive data through an network, one way of achieving this is by using a concept called sockets. In short sockets function as an endpoint of a local network.
 For that we use UDP and TCP
 UDP TCP UDP uses ports to allocate data to the correct program, so it is connectionless TCP establishes a connection between two end points of a network connection (sockets) Lets see the basics of how to setup sockets.</description>
@@ -316,10 +314,10 @@ UDP TCP UDP uses ports to allocate data to the correct program, so it is connect
     
     <item>
       <title>Keeping Platform Independency </title>
-      <link>https://fartleako.github.io/advanced_concepts/platform_independency/</link>
+      <link>https://fartleako.github.io/CFWebsite/advanced_concepts/platform_independency/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/advanced_concepts/platform_independency/</guid>
+      <guid>https://fartleako.github.io/CFWebsite/advanced_concepts/platform_independency/</guid>
       <description></description>
     </item>
     

@@ -2,55 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basic Concepts on CrossForge</title>
-    <link>https://fartleako.github.io/CFWebsite/basic_concepts/</link>
+    <link>/basic_concepts/</link>
     <description>Recent content in Basic Concepts on CrossForge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Nov 2022 14:41:46 +0100</lastBuildDate><atom:link href="https://fartleako.github.io/CFWebsite/basic_concepts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 14:41:46 +0100</lastBuildDate><atom:link href="/basic_concepts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>https://fartleako.github.io/CFWebsite/basic_concepts/getting_started/</link>
+      <link>/basic_concepts/getting_started/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/getting_started/</guid>
+      <guid>/basic_concepts/getting_started/</guid>
       <description>Basic Setup The following steps have to be performed, no matter what OS you are running.
 If you haven&amp;rsquo;t done already, install git https://git-scm.com/book/en/v2/Getting-Started-Installing-Git and clone this repository with git clone https://github.com/Tachikoma87/CrossForge.git CrossForge relies on vcpkg as package manager on Windows and Linux https://github.com/microsoft/vcpkg. Follow the installation instructions for your system: https://github.com/microsoft/vcpkg#getting-started Windows The prefered way to compile Crossforge under Windows is with the help of Visual Studio (A guide to install Visual Studio can be found here).</description>
     </item>
     
     <item>
       <title>Basic Program Structure</title>
-      <link>https://fartleako.github.io/CFWebsite/basic_concepts/basic_structure/</link>
+      <link>/basic_concepts/basic_structure/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/basic_structure/</guid>
+      <guid>/basic_concepts/basic_structure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graphics Pipeline Structure</title>
-      <link>https://fartleako.github.io/CFWebsite/basic_concepts/graphics_pipeline/</link>
+      <link>/basic_concepts/graphics_pipeline/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/graphics_pipeline/</guid>
+      <guid>/basic_concepts/graphics_pipeline/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Loading and Storing Assets</title>
-      <link>https://fartleako.github.io/CFWebsite/basic_concepts/using_assets/</link>
+      <link>/basic_concepts/using_assets/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/using_assets/</guid>
+      <guid>/basic_concepts/using_assets/</guid>
       <description>To handle import and export of meshes or image files - Assets - CrossForge implements the class SAssetIO. To load an Asset, simply use the load function in combination with the class T3DMesh or T2DImage depending on the asset to store it:
 T3DMesh&amp;lt;float&amp;gt; M; T2DImage&amp;lt;uint8_t&amp;gt; I; SAssetIO::load(&amp;#34;Assets/path/mesh.meshformat&amp;#34;, &amp;amp;M); SAssetIO::load(&amp;#34;Assets/path/image.imageformat&amp;#34;, &amp;amp;I); </description>
     </item>
     
     <item>
       <title>Putting it all together</title>
-      <link>https://fartleako.github.io/CFWebsite/basic_concepts/putting_it_all_together/</link>
+      <link>/basic_concepts/putting_it_all_together/</link>
       <pubDate>Tue, 01 Nov 2022 21:49:43 +0100</pubDate>
       
-      <guid>https://fartleako.github.io/CFWebsite/basic_concepts/putting_it_all_together/</guid>
+      <guid>/basic_concepts/putting_it_all_together/</guid>
       <description></description>
     </item>
     
