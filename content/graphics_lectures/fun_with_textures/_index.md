@@ -8,8 +8,8 @@ chapter: true
 
 # Fun with Textures
 
-### [Skybox](/graphics_lectures/fun_with_textures/skybox/)({{< ref "/graphics_lectures/fun_with_textures/morphing.md" >}})
+### [Skybox](/graphics_lectures/fun_with_textures/skybox/)({{< ref "/graphics_lectures/fun_with_textures/skybox.md" >}})
 
 ----
 
-### [Normal and Displacement Mapping]{{< ref "/graphics_lectures/fun_with_textures/normal_displacement_mapping.md" >}})
+### [Normal and Displacement Mapping]({{< ref "/graphics_lectures/fun_with_textures/normal_displacement_mapping.md" >}})
