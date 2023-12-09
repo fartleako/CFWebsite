@@ -8,7 +8,7 @@ chapter: true
 
 # Graphical Lectures
 
-**ToDo**: opening paragraph
+As you now know the basics about the framework itself and some programming specific advice, we will continue with the graphical lecutres which give you an indepth dive into lighting, animations and a bit of mathematics.
 
 ### [Moving Objects]({{< ref "/graphics_lectures/moving_objects/_index.md" >}})
 
