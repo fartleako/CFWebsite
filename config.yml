@@ -11,6 +11,7 @@ params:
   disableLandingPageButton: false
   ordersectionsby: "weight"
   themeVariant: "blue"      # logo hase the same color - if you want to change the color you also have to change the logo!
+  canonifyURLs: true
 
 menu:
   shortcuts:
