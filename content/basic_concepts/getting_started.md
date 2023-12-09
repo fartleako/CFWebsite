@@ -26,10 +26,6 @@ Due to the fact that Crossforge uses CMake and not the native Visual Studio Solu
 1. search for "CMake" and tick the box
 ![Install CMake](images/CMake_install.JPG)
 
-{{ with .Resources.GetMatch "images/CMake_install.JPG" }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-{{ end }}
-
 Now we need vcpkg to work with Visual Studio. Open a command prompt and type `[path-to-vcpkg]\vcpkg integrate install`
 
 Start Visual Studio and select Open a local folder. Move to the directory where you executed the first git command and open the CrossForge folder. If the CMake configuration process does not start automatically, right click on CMakeLists.txt and select configure cache. Wait for the configuration to complete, then select Build->Build All (F7) from the menu bar. After completion select CForgeSandbox.exe as starting item and select Debug->Start Debugging (F5) from the menu bar or click on the small green right facing arrow.
