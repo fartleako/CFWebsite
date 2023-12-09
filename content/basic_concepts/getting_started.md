@@ -24,7 +24,7 @@ Due to the fact that Crossforge uses CMake and not the native Visual Studio Solu
 1. click on "Change" 
 1. click on "Single components"
 1. search for "CMake" and tick the box
-![Install CMake](/CMake_install.JPG)
+![Install CMake](/images/CMake_install.JPG)
 
 Now we need vcpkg to work with Visual Studio. Open a command prompt and type `[path-to-vcpkg]\vcpkg integrate install`
 
