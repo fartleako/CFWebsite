@@ -11,7 +11,7 @@ chapter: true
 #### CrossForge is a C/C++ cross platform library intended to run on Windows and Raspian for small to mid size graphical and non-graphical projects.
 
 {{% notice tip %}}
-You want to install CrossForge? An installation guide is provided under "[Basic Concepts](basic_concepts/getting_started)."
+You want to install CrossForge? An installation guide is provided under "[Basic Concepts]({{< ref "/basic_concepts/getting_started.md" >}})."
 {{% /notice %}}
 
 ![multiple view ports scene as a gif](/multible_viewports.gif)

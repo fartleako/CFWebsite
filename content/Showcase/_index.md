@@ -10,19 +10,17 @@ chapter: true
 
 #### With this site we want you to grasp the possibilities that this engine has by showing you some completed programs that used this engine.
 
-### [Checkpoint Race](/showcase/checkpoin_race/)
+### [Checkpoint Race]({{< ref "/showcase/checkpoin_race.md" >}})
 
 ----
 
-### [Flappy Bird - Reimagined](/showcase/flappy_bird_reimagined/)
+### [Flappy Bird - Reimagined]({{< ref "/showcase/flappy_bird_reimagined.md" >}})
 
 ----
 
-### [Map-Builder](/showcase/mapbuilder/)
+### [Map-Builder]({{< ref "/showcase/mapbuilder.md" >}})
 
-----
 
-### Bird Menu **TODO**?
 
 
 

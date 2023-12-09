@@ -8,25 +8,25 @@ chapter: true
 
 # Advanced Concepts
 
-**ToDo**: opening paragraph
+Advancec concepts display modules which go deeper than regular ones. 
 
-### [Handling Input](/advanced_concepts/input/)
-
-----
-
-### [Multi Viewport](/advanced_concepts/multi_viewport/)
+### [Handling Input]({{< ref "advanced_concepts/input.md" >}})
 
 ----
 
-### [PBS Material System](/advanced_concepts/material_system/)
+### [Multi Viewport]({{< ref "/advanced_concepts/multi_viewport.md" >}})
 
 ----
 
-### [Shader System](/advanced_concepts/shader/)
+### [PBS Material System]({{< ref "/advanced_concepts/material_system.md" >}})
 
 ----
 
-### [Callback System](/advanced_concepts/callback_system/)
+### [Shader System]({{< ref "/advanced_concepts/shader.md" >}})
+
+----
+
+### [Callback System]({{< ref "/advanced_concepts/callback_system.md" >}})
 
 ----
 

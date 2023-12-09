@@ -8,24 +8,24 @@ chapter: true
 
 # Basic Concepts
 
-**ToDo**: opening paragraph
+With basic concepts we want to introduce the framework and create first tasks. After this you should be able to understand the basics of CrossForge. Furthermore you should be able to experiment with it a bit.  
 
-### [Installation](/basic_concepts/getting_started/)
-
-----
-
-### [Basic Program Structure](/basic_concepts/basic_structure/)
+### [Installation]({{< ref "/basic_concepts/getting_started.md" >}})
 
 ----
 
-### [Graphics Pipeline Structure](/basic_concepts/graphics_pipeline/)
+### [Basic Program Structure]({{< ref "/basic_concepts/basic_structure.md" >}})
 
 ----
 
-### [Loading and Storing Assets](/basic_concepts/using_assets/)
+### [Graphics Pipeline Structure]({{< ref "/basic_concepts/graphics_pipeline.md" >}})
+
+----
+
+### [Loading and Storing Assets]({{< ref "/basic_concepts/using_assets.md" >}})
 
 
 ----
 
-### [Putting it all together](/basic_concepts/putting_it_all_together/)
+### [Putting it all together]({{< ref "/basic_concepts/putting_it_all_together.md" >}})
 
