@@ -8,8 +8,8 @@ chapter: true
 
 # All about Animations
 
-### [Morphing](/graphics_lectures/animations/morphing/)
+### [Morphing]({{< ref "/graphics_lectures/animations/morphing.md" >}})
 
 ----
 
-### [Skeletal Animation](/graphics_lectures/animations/skeletal_animation/)
+### [Skeletal Animation]({{< ref "/graphics_lectures/animations/skeletal_animation.md" >}})

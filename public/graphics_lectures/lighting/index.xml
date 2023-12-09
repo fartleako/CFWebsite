@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lighting on CrossForge</title>
-    <link>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/</link>
+    <link>https://fartleako.github.io/graphics_lectures/lighting/</link>
     <description>Recent content in Lighting on CrossForge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Nov 2022 14:41:58 +0100</lastBuildDate><atom:link href="https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 14:41:58 +0100</lastBuildDate><atom:link href="https://fartleako.github.io/graphics_lectures/lighting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Physically Based Shading</title>
-      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/pbr/</link>
+      <link>https://fartleako.github.io/graphics_lectures/lighting/pbr/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/pbr/</guid>
+      <guid>https://fartleako.github.io/graphics_lectures/lighting/pbr/</guid>
       <description>Physically based shading (PBS) is a rendering technique used in computer graphics to create realistic materials and lighting in 3D scenes. Unlike traditional rendering techniques, which rely on ad hoc methods to simulate lighting and material properties, physically based shading is based on the laws of physics and provides a more accurate and consistent way to render objects. Principles of Physically Based Shading At the heart of physically based shading is the idea that light interacts with surfaces in a physically accurate way.</description>
     </item>
     
     <item>
       <title>Light Sources</title>
-      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/light_sources/</link>
+      <link>https://fartleako.github.io/graphics_lectures/lighting/light_sources/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/light_sources/</guid>
+      <guid>https://fartleako.github.io/graphics_lectures/lighting/light_sources/</guid>
       <description>Light sources are an important aspect of computer graphics as they play a crucial role in creating a realistic scene. In this chapter, we will discuss the basics of implementing light sources in C++ to place them in a scene. Types of Light Sources There are several types of light sources that can be used in computer graphics, each with their own properties and characteristics. The most common types of light sources include:</description>
     </item>
     
     <item>
       <title>Casting Shadows</title>
-      <link>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/shadows/</link>
+      <link>https://fartleako.github.io/graphics_lectures/lighting/shadows/</link>
       <pubDate>Sat, 22 Oct 2022 18:53:54 +0200</pubDate>
       
-      <guid>https://fartleako.github.io/CFWebsite/graphics_lectures/lighting/shadows/</guid>
+      <guid>https://fartleako.github.io/graphics_lectures/lighting/shadows/</guid>
       <description>Casting shadows is an important aspect of 3D computer graphics that helps to create a sense of depth and realism in a scene. Shadows are created when an object blocks the path of light from a light source to a surface, and can be used to create a sense of depth, shape, and form in a scene. Types of Shadows There are several types of shadows that can be created in a 3D scene, including:</description>
     </item>
     

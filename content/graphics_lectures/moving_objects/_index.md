@@ -8,16 +8,16 @@ chapter: true
 
 # Moving Objects
 
-### [Transformations](/graphics_lectures/moving_objects/transformation/)
+### [Transformations]({{< ref "/graphics_lectures/moving_objects/transformation/_index.md" >}})
 
 ---- 
 
-### [Scenegraph](/graphics_lectures/moving_objects/scenegraph/)
+### [Scenegraph]({{< ref "/graphics_lectures/moving_objects/scenegraph/_index.md" >}})
 
 ----
 
-### [Virtual Camera](/graphics_lectures/moving_objects/virtual_camera/)
+### [Virtual Camera]({{< ref "/graphics_lectures/moving_objects/virtual_camera.md" >}})
 
 ----
 
-### [View Frustum Culling](/graphics_lectures/moving_objects/frustum_culling/)
+### [View Frustum Culling]({{< ref "/graphics_lectures/moving_objects/frustum_culling.md" >}})

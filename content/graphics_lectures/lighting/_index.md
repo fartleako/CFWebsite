@@ -8,12 +8,12 @@ chapter: true
 
 # Lighting
 
-### [Physically Based Shading](/graphics_lectures/lighting/pbr/)
+### [Physically Based Shading]({{< ref "/graphics_lectures/graphical_user_interface/lighting/pbr.md" >}})
 
 ----
 
-### [Light Sources](/graphics_lectures/lighting/light_sources/)
+### [Light Sources]({{< ref "/graphics_lectures/graphical_user_interface/lighting/light_sources.md" >}})
 
 ---- 
 
-### [Casting Shadows](/graphics_lectures/lighting/shadows/)
+### [Casting Shadows]({{< ref "/graphics_lectures/graphical_user_interface/lighting/shadows.md" >}})

@@ -10,23 +10,25 @@ chapter: true
 
 **ToDo**: opening paragraph
 
-### [Moving Objects](/graphics_lectures/moving_objects/)
+### [Moving Objects]({{< ref "/graphics_lectures/moving_objects/_index.md" >}})
 
 ----
 
-### [Lighting](/graphics_lectures/lighting/)
+### [Lighting]({{< ref "/graphics_lectures/lighting/_index.md" >}})
+
 
 ----
 
-### [All about Animations](/graphics_lectures/animations/)
+### [All about Animations]({{< ref "/graphics_lectures/animations/_index.md" >}})
+
 
 ----
 
-### [Fun with Textures](/graphics_lectures/fun_with_textures/)
+### [Fun with Textures]({{< ref "/graphics_lectures/fun_with_textures/_index.md" >}})
 
 ----
 
-### [Graphical Use Interface - GUI](/graphics_lectures/graphical_user_interface/)
+### [Graphical Use Interface - GUI]({{< ref "/graphics_lectures/graphical_user_interface/_index.md" >}})
 
 
 

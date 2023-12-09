@@ -8,8 +8,8 @@ chapter: true
 
 # Graphical User Interface - GUI
 
-### [Dear ImGUI](/graphics_lectures/graphical_user_interface/dear_imgui/)
+### [Dear ImGUI]({{< ref "/graphics_lectures/graphical_user_interface/dear_imgui.md" >}})
 
 ----
 
-### [Text Rendering](/graphics_lectures/graphical_user_interface/text_rendering/)
+### [Text Rendering]({{< ref "/graphics_lectures/graphical_user_interface/text_rendering.md" >}})
